@@ -327,13 +327,13 @@
       },
       "grant_evidence": "87 exact base package versions inventoried. Python/OS/native licenses vary; no connector image has been built.",
       "remaining_uncertainty": "Per-package exact license/source offers and full image-native closure not completed. Image paths beyond inventoried base are not established because no candidate image exists.",
-      "needed_for_connector": "Existing image was isolated test infrastructure only. Not needed for host source install, not part of this proposed source release.",
+      "needed_for_connector": "Existing image was isolated test infrastructure only. Not needed for host source install, not part of the published source release.",
       "artifact_presence": {
         "public_git_tree": "absent; inventory metadata only",
         "project_wheel": "absent",
         "project_source_tarball": "absent; inventory metadata only",
         "private_dependency_source_bundle": "absent; no OS/base sources bundled",
-        "container_image": "unbuilt and not proposed"
+        "container_image": "unbuilt and not released"
       },
       "confirmed_obligation": "A future OCI image conveys Python/OS/native binaries as well as the app; complete its own terms/notices/source/relink review. Existing test use is not image redistribution by this release."
     },

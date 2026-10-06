@@ -54,5 +54,4 @@ Operator text template, **not a completed offer**:
 Replace that placeholder only after the matching materials and permissions have
 been checked. A client/tunnel readiness test does not verify this source offer.
 This project supplies no automatic UI source-offer injection or publisher-hosted
-shared service; no existing plugin/runtime configuration is changed by release
-preparation. Operators should get qualified review when scope remains uncertain.
+shared service; this documentation/CI update changes no existing plugin/runtime configuration. Operators should get qualified review when scope remains uncertain.

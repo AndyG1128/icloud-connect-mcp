@@ -20,7 +20,6 @@
     "mail.py": "ebc04b9d33ec21f156c19389da512d73c97d3dfda3c14d4149f09eb5e2f40c3e"
   },
   "candidate_distribution": "icloud-connect-mcp",
-  "proposed_version": "0.2.0b1",
   "source_date_epoch": 1791236448,
   "private_history_imported": false,
   "release_tag_created": false,
@@ -29,5 +28,9 @@
     "relocatable stdio launcher with explicit configuration override"
   ],
   "mail_calendar_algorithm_changes": false,
-  "credentials_or_live_state_used": false
+  "credentials_or_live_state_used": false,
+  "release_version": "0.2.0b1",
+  "release_status": "source Git published; no tag or binary assets",
+  "initial_public_revision": "65538d25a82e0fbcebdbb83a8a1fe59814376ca5",
+  "public_validation_baseline": "024e46bec2280da78fa8a042d1305ddbc0fccea9"
 }

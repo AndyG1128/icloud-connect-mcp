@@ -1,7 +1,7 @@
 # Optional operator-run live validation
 
 Live checks require your own independently configured credentials and deliberate
-operator approval. Release preparation does not run them. Keep a read-only profile
+operator approval. Offline documentation/CI validation does not run them. Keep a read-only profile
 for initial discovery/search/full-message/attachment/calendar checks and verify
 flags before/after. Use bounded date ranges and examples you choose locally.
 

@@ -5,7 +5,10 @@
 A local MCP client can launch the reviewed installation's `scripts/run-stdio.sh`
 with its own private config and persistent state. The existing executable remains
 `icloud-mcp` after installing the `icloud-connect-mcp` distribution. Test initialize,
-list_tools and connector_ping first. Local success does not establish remote access.
+list_tools and connector_ping first. The concretely tested local client is the
+official Python MCP SDK; see the complete [README recipe](../README.md#test-an-account-free-local-mcp-client)
+and [JSON template](../examples/local-stdio.example.json). No other local client
+compatibility is claimed. Local success does not establish remote access.
 This service exposes no HTTP port and provides no generic Internet authentication layer.
 
 ## Secure MCP Tunnel: separate prerequisites

@@ -1,0 +1,8 @@
+{
+  "command": "/srv/icloud-connect-mcp/.venv/bin/python",
+  "args": ["-m", "icloud_mcp.server"],
+  "cwd": "/srv/icloud-connect-mcp",
+  "env": {
+    "ICLOUD_MCP_CONFIG": "/srv/icloud-connect-mcp/.config/probe.toml"
+  }
+}

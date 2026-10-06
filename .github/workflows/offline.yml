@@ -1,0 +1,30 @@
+name: Offline installed-package validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout public source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Download dependencies, then validate without networking
+        run: python3 scripts/offline_ci.py --output .artifacts/offline-ci --revision "$GITHUB_SHA"
+      - name: Add sanitized validation summary
+        if: always()
+        run: |
+          if test -f .artifacts/offline-ci/results/summary.md; then
+            cat .artifacts/offline-ci/results/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '%s\n' 'Validation did not produce a summary; inspect the setup/test logs.' >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -1,0 +1,170 @@
+{
+  "validation_date": "2026-10-05",
+  "published_source_revision": "024e46bec2280da78fa8a042d1305ddbc0fccea9",
+  "source_url": "https://github.com/AndyG1128/icloud-connect-mcp/commit/024e46bec2280da78fa8a042d1305ddbc0fccea9",
+  "scope": "Local offline runs, not GitHub-hosted CI or live account tests. Proposed changes are an uncommitted working copy, not that immutable revision.",
+  "host_setup": {
+    "os": "Ubuntu 24.04",
+    "python": "3.12.3",
+    "docker_client_server": "29.7.2"
+  },
+  "test_image": "python:3.12-slim@sha256:02108f5d322dd89f1c9e552442c25acb0543dfdbc455693a5599624f20d9155d",
+  "results": [
+    {
+      "label": "clean_public_baseline",
+      "command": "python3 scripts/offline_ci.py --source-dir ../baseline-public --output ../baseline-final",
+      "result": {
+        "source_revision": "024e46bec2280da78fa8a042d1305ddbc0fccea9",
+        "source_checkout_has_changes": false,
+        "validation_harness_sha256": "3dce162cead7899709b811c9ed62b5097d701d3beda48b06cff63ad828f2ae28",
+        "onboarding_readme_sha256": "74c8ba7d118d677805f5b090d4d85949424921a6d062418c8f51b2a490ee092f",
+        "python": "3.12.15",
+        "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.41",
+        "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.7\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"\n",
+        "network": "none (loopback only; outbound assertion passed)",
+        "build_environment": "/tmp/source/.artifacts/build-venv",
+        "test_environment": "/tmp/source/.venv",
+        "module_origin": "/tmp/source/.venv/lib/python3.12/site-packages/icloud_mcp/__init__.py",
+        "package_version": "0.2.0b1",
+        "installed_modules_byte_verified": 13,
+        "tests": {
+          "tests": 235,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "runtime_module_sha256": {
+          "__init__.py": "c520865a90eeedbafab47a16767146901a60aad535238415fd4765f9e119d10c",
+          "calendars.py": "5236aaccf5c6f6e08a60127ae00c843f2631350b61d427fae5e00b803f0fef0d",
+          "config.py": "5cbcc53ab16d2e842a424f090b30117d27c905261cb8e30b0f1e70dfbfbc0fd3",
+          "errors.py": "51912b9c512a58677f3cf0be668e572c64ff8a395fb7f361931e7aab374f40cd",
+          "identities.py": "531420173e9ca2221ff2267092320e47abe5c885fb4358fe49ea7a97c98f479b",
+          "logging.py": "0cc43c7114d4706af44859c1bee63eef4c8f8216d7996bb89bd4b15ea60b1542",
+          "mail.py": "ebc04b9d33ec21f156c19389da512d73c97d3dfda3c14d4149f09eb5e2f40c3e",
+          "mail_operations.py": "762ccc29acede0aa93371288394a29e592f64fddd64659eba08d6f0e7d36b686",
+          "operation_store.py": "96c5256f5639a7dc467381bb748a6c04c9d0f71b1c99320f3e70bb223bc0b267",
+          "permissions.py": "7d6b972400ec3b104317f28af7c25df2e58a30ca8359b6f37b3d558e2f14456e",
+          "recurrence.py": "cb50716f5ac974b924bc37a32da2f87063300c5d68188d8dd046acc392b03055",
+          "server.py": "6b3d59bf9b8b9ca932b165aa42d9dc5bf87734b5528f518795e2ef793e9ab6df",
+          "smtp.py": "903eb1097027dd87ade8001755e12cf2907f8f161a3980dd57770846c13949dd"
+        },
+        "lock_sha256": {
+          "requirements.lock": "56bc03211ee2587d0c33aae2f3ee8601a9c3d7af4b95ba93e05cd2ef40388f29",
+          "requirements-build.lock": "baf88b776544b8603afa26c45f8a2771b5ea6cd2ba0a231eb748f1ee91a5f1eb",
+          "requirements-dev.lock": "5675021774c6050b59c02862c36d726e832ead3a78cd3d20ad4bbd1b0962b9d9"
+        },
+        "local_client": {
+          "tool_count": 9,
+          "connector_ping": {
+            "ok": true,
+            "result": {
+              "service": "independent-icloud-mcp",
+              "version": "0.2.0b1",
+              "account_access": false,
+              "profile": "read-only",
+              "transport": "stdio"
+            }
+          }
+        },
+        "profile_discovery_counts": [
+          9,
+          16,
+          17
+        ],
+        "account_free_client_disconnect_restart_reconnect": "passed; signing key preserved",
+        "profile_protocol_test_cases": [
+          "test_real_mcp_stdio_profiles[read-only-False-expected0]",
+          "test_real_mcp_stdio_profiles[full-access-False-expected1]",
+          "test_real_mcp_stdio_profiles[full-access-True-expected2]"
+        ],
+        "permission_tests": "tests/test_permissions.py and tests/test_protocol.py passed",
+        "wheel_sha256": "0cac532681de138e5c4a1d5e84201a1e5d53be2f5c1b787334f13833c10723a9",
+        "credentials_or_live_account_calls": false
+      }
+    },
+    {
+      "label": "proposed_documentation_ci_working_copy",
+      "command": "python3 scripts/offline_ci.py --output ../candidate-reviewed",
+      "result": {
+        "source_revision": "024e46bec2280da78fa8a042d1305ddbc0fccea9",
+        "source_checkout_has_changes": true,
+        "validation_harness_sha256": "3dce162cead7899709b811c9ed62b5097d701d3beda48b06cff63ad828f2ae28",
+        "onboarding_readme_sha256": "74c8ba7d118d677805f5b090d4d85949424921a6d062418c8f51b2a490ee092f",
+        "python": "3.12.15",
+        "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.41",
+        "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.7\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"\n",
+        "network": "none (loopback only; outbound assertion passed)",
+        "build_environment": "/tmp/source/.artifacts/build-venv",
+        "test_environment": "/tmp/source/.venv",
+        "module_origin": "/tmp/source/.venv/lib/python3.12/site-packages/icloud_mcp/__init__.py",
+        "package_version": "0.2.0b1",
+        "installed_modules_byte_verified": 13,
+        "tests": {
+          "tests": 239,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "runtime_module_sha256": {
+          "__init__.py": "c520865a90eeedbafab47a16767146901a60aad535238415fd4765f9e119d10c",
+          "calendars.py": "5236aaccf5c6f6e08a60127ae00c843f2631350b61d427fae5e00b803f0fef0d",
+          "config.py": "5cbcc53ab16d2e842a424f090b30117d27c905261cb8e30b0f1e70dfbfbc0fd3",
+          "errors.py": "51912b9c512a58677f3cf0be668e572c64ff8a395fb7f361931e7aab374f40cd",
+          "identities.py": "531420173e9ca2221ff2267092320e47abe5c885fb4358fe49ea7a97c98f479b",
+          "logging.py": "0cc43c7114d4706af44859c1bee63eef4c8f8216d7996bb89bd4b15ea60b1542",
+          "mail.py": "ebc04b9d33ec21f156c19389da512d73c97d3dfda3c14d4149f09eb5e2f40c3e",
+          "mail_operations.py": "762ccc29acede0aa93371288394a29e592f64fddd64659eba08d6f0e7d36b686",
+          "operation_store.py": "96c5256f5639a7dc467381bb748a6c04c9d0f71b1c99320f3e70bb223bc0b267",
+          "permissions.py": "7d6b972400ec3b104317f28af7c25df2e58a30ca8359b6f37b3d558e2f14456e",
+          "recurrence.py": "cb50716f5ac974b924bc37a32da2f87063300c5d68188d8dd046acc392b03055",
+          "server.py": "6b3d59bf9b8b9ca932b165aa42d9dc5bf87734b5528f518795e2ef793e9ab6df",
+          "smtp.py": "903eb1097027dd87ade8001755e12cf2907f8f161a3980dd57770846c13949dd"
+        },
+        "lock_sha256": {
+          "requirements.lock": "56bc03211ee2587d0c33aae2f3ee8601a9c3d7af4b95ba93e05cd2ef40388f29",
+          "requirements-build.lock": "baf88b776544b8603afa26c45f8a2771b5ea6cd2ba0a231eb748f1ee91a5f1eb",
+          "requirements-dev.lock": "5675021774c6050b59c02862c36d726e832ead3a78cd3d20ad4bbd1b0962b9d9"
+        },
+        "local_client": {
+          "tool_count": 9,
+          "connector_ping": {
+            "ok": true,
+            "result": {
+              "service": "independent-icloud-mcp",
+              "version": "0.2.0b1",
+              "account_access": false,
+              "profile": "read-only",
+              "transport": "stdio"
+            }
+          }
+        },
+        "profile_discovery_counts": [
+          9,
+          16,
+          17
+        ],
+        "account_free_client_disconnect_restart_reconnect": "passed; signing key preserved",
+        "profile_protocol_test_cases": [
+          "test_real_mcp_stdio_profiles[read-only-False-expected0]",
+          "test_real_mcp_stdio_profiles[full-access-False-expected1]",
+          "test_real_mcp_stdio_profiles[full-access-True-expected2]"
+        ],
+        "permission_tests": "tests/test_permissions.py and tests/test_protocol.py passed",
+        "wheel_sha256": "573e27ba36be63cefdf867e5099489453d551aa9219f2a0e991bd06e1230c482",
+        "credentials_or_live_account_calls": false
+      }
+    }
+  ],
+  "connector_modules_and_dependency_locks_unchanged": true,
+  "workflow_static_validation": {
+    "parser": "PyYAML BaseLoader",
+    "actionlint_version": "v1.7.12",
+    "actionlint_result": "passed",
+    "permissions": "contents: read only"
+  },
+  "github_actions_result": "unrun at review; inspect exact commit run after approved push",
+  "live_account_tests_this_pass": false,
+  "independent_beta_tester_completed": false,
+  "distribution_artifacts_uploaded": false,
+  "historical_live_results_reference": "validation.md#reported-live-development-checks"
+}

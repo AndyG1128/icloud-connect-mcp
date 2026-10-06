@@ -1,11 +1,11 @@
 # License and distribution scope
 
-## Selected first release
+## Published source beta
 
-The proposed first release is the reviewed **authored-source Git repository** at
+The published beta is the reviewed **authored-source Git repository** at
 https://github.com/AndyG1128/icloud-connect-mcp . This document describes the scoped
 source distribution, not a public binary or shared hosted service.
-LICENSE and the explicit authored-code grant in NOTICE.md are prepared as
+LICENSE and the explicit authored-code grant in NOTICE.md are licensed as
 **AGPL-3.0-or-later**, under the owner's conditional approval evaluated for this
 source-distribution scope. Dependency license expressions and notices remain
 unchanged, including every “only” versus “or later” distinction. No OpenSSL
@@ -17,7 +17,7 @@ The authors' preferred source, configuration/build/install scripts and synthetic
 tests are present. AGPL section 1 expressly distinguishes Corresponding Source
 of a source-form work from the source required for object-code/installed works;
 sections 4/5 govern source conveyance. No restrictive resource or native dependency
-binary is conveyed by this proposed source set. That supports the narrow authored
+binary is conveyed by this published source set. That supports the narrow authored
 source grant; it does not certify a combined installed binary or a hosted service.
 
 Source-form tarballs made from the same set have the same source-license basis.
@@ -110,11 +110,11 @@ change here; these are distribution/hosting compliance distinctions.
 
 | Format | Disposition | Remaining requirement |
 |---|---|---|
-| Authored source Git repository | Selected; prepared for exact-content approval | Attribution is andyg1128; verify the private reporting route, approve contents/destination and public commit identity; preserve notices/source-access instructions; fresh public history only |
+| Authored source Git repository | Published source-only beta | Preserve license/notices and source-access instructions; no private history or runtime data included |
 | Project source tarball | Same scoped source basis; deferred optional artifact | Produce from approved tree, checksum it and provide the same notices/build files; no bundled dependencies |
 | Project wheel without dependencies | No embedded lxml/native redistribution blocker; deferred | Match approved source/build materials; inspect final members and keep equivalent source access; no combined-runtime clearance claim |
 | Dependency-source bundle | Blocked; remains private | Clarify lxml resource grants or qualified scope assessment; component terms/source-build closure; classify optional FIPS/source aggregation correctly |
-| Container/native wheelhouse | Blocked; no image proposed | Exact contents/native feature inventory, component notices, source access and applicable LGPL relink/base-image compliance |
+| Container/native wheelhouse | Blocked; no image released | Exact contents/native feature inventory, component notices, source access and applicable LGPL relink/base-image compliance |
 
 Primary basis: [AGPL sections 1, 4–6 and 13](https://www.gnu.org/licenses/agpl.en.html),
 [FSF network Corresponding Source FAQ](https://www.gnu.org/licenses/gpl-faq.en.html#AGPLv3CorrespondingSource),

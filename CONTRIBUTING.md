@@ -1,11 +1,11 @@
 # Contributing
 
-This is an independent community project in initial beta preparation; no outside
+This is an independent community project with a published initial source beta; no outside
 contributors, maintainer team, review turnaround or support SLA is claimed.
 Publisher: andyg1128. Public source destination:
 https://github.com/AndyG1128/icloud-connect-mcp . Authored files are AGPL-3.0-or-later;
 third-party terms are retained. Contributor acceptance policy remains pending;
-do not infer it from the old private development repository.
+no separate contributor agreement is currently established.
 
 Use synthetic mail and calendars only. Never submit credentials, account identifiers,
 private fixtures, signing keys, ledgers or operational logs. Do not copy proprietary
