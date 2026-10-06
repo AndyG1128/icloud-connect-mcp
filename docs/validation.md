@@ -10,9 +10,10 @@ modules and all three dependency locks are unchanged from that public revision.
 
 [Sanitized machine-readable evidence](offline-validation.json) records the actual
 local commands, Python/platform, public revision, installed-module/lock hashes,
-MCP results and offline outcomes for this pass. It separates a clean public
-baseline run from the proposed documentation/CI working copy. This evidence is
-local execution, not a GitHub-hosted Actions result or an independent user's test.
+MCP results and offline outcomes for this pass. It preserves the distinction between
+the clean public baseline and the documentation/CI working copy tested before
+publication, and records the subsequent GitHub-hosted result separately. These
+checks do not establish that an independent user completed beta acceptance.
 
 | Local run | Source | Result |
 |---|---|---|
@@ -47,11 +48,16 @@ account login, remote ChatGPT connectivity, tunnel crash/reboot recovery or writ
 through a real client approval flow.
 
 [Reproduction instructions](development.md) give the same pipeline and commands.
-[The hosted workflow](../.github/workflows/offline.yml) will produce a public job
-summary tied to its exact commit on the
-[Actions run page](https://github.com/AndyG1128/icloud-connect-mcp/actions/workflows/offline.yml).
-At preparation/review, the new workflow has not been pushed or run on GitHub;
-its result must be checked after an approved push. No package/image is uploaded.
+[The hosted workflow](../.github/workflows/offline.yml) passed on **2026-10-06** for
+published commit
+[`79c9ad5e4c3aff569aea481451777a4e0aa61912`](https://github.com/AndyG1128/icloud-connect-mcp/commit/79c9ad5e4c3aff569aea481451777a4e0aa61912).
+[The successful run and job summary](https://github.com/AndyG1128/icloud-connect-mcp/actions/runs/37471257283)
+record **239 passed**, 0 failures/errors/skips, installed-wheel validation, permission
+enforcement and **9 / 16 / 17** tool discovery. The network-disabled tests used
+CPython **3.12.15** on Linux x86_64 with Debian **13.7** userland. The README SDK
+recipe and account-free disconnect/restart/reconnect also passed. No live account
+calls, package uploads or image uploads were performed. This result applies to
+the linked commit; later revisions require their own successful run.
 
 ## Reported live development checks
 

@@ -2,7 +2,7 @@
   "validation_date": "2026-10-05",
   "published_source_revision": "024e46bec2280da78fa8a042d1305ddbc0fccea9",
   "source_url": "https://github.com/AndyG1128/icloud-connect-mcp/commit/024e46bec2280da78fa8a042d1305ddbc0fccea9",
-  "scope": "Local offline runs, not GitHub-hosted CI or live account tests. Proposed changes are an uncommitted working copy, not that immutable revision.",
+  "scope": "Local offline runs recorded on 2026-10-05 plus separately recorded GitHub-hosted validation on 2026-10-06. The pre-publication working-copy results remain distinct from immutable public revisions. No live account tests.",
   "host_setup": {
     "os": "Ubuntu 24.04",
     "python": "3.12.3",
@@ -162,7 +162,27 @@
     "actionlint_result": "passed",
     "permissions": "contents: read only"
   },
-  "github_actions_result": "unrun at review; inspect exact commit run after approved push",
+  "github_actions_result": {
+    "validation_date": "2026-10-06",
+    "source_revision": "79c9ad5e4c3aff569aea481451777a4e0aa61912",
+    "source_checkout_has_changes": false,
+    "run_url": "https://github.com/AndyG1128/icloud-connect-mcp/actions/runs/37471257283",
+    "conclusion": "success",
+    "python": "3.12.15",
+    "userland": "Debian 13.7, Linux x86_64",
+    "tests": {
+      "tests": 239,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "profile_discovery_counts": [9, 16, 17],
+    "installed_wheel_and_permission_checks": "passed",
+    "readme_local_client_and_restart_reconnect": "passed",
+    "test_network": "disabled",
+    "credentials_or_live_account_calls": false,
+    "distribution_artifacts_uploaded": false
+  },
   "live_account_tests_this_pass": false,
   "independent_beta_tester_completed": false,
   "distribution_artifacts_uploaded": false,

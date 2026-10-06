@@ -79,9 +79,12 @@ deployment/repository-write steps, artifact uploads or package publication.
 Results appear in the job logs and job summary on the
 [workflow run page](https://github.com/AndyG1128/icloud-connect-mcp/actions/workflows/offline.yml).
 The summary records the exact CI commit (`GITHUB_SHA`), including a PR merge SHA
-when appropriate. Until the first approved push/run, this new workflow has no
-GitHub-hosted result; local validation is reported separately in
-[validation.md](validation.md).
+when appropriate. [The first successful hosted run](https://github.com/AndyG1128/icloud-connect-mcp/actions/runs/37471257283)
+validated published commit `79c9ad5e4c3aff569aea481451777a4e0aa61912` on
+2026-10-06: **239 tests passed**, including **9 / 16 / 17** tool discovery and
+permission enforcement against the installed wheel. Local and hosted evidence
+remain distinguished in [validation.md](validation.md). Check the exact commit's
+run when assessing a later revision.
 
 GitHub's [workflow permission reference](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#permissions)
 explains the token permissions. The pinned [checkout action](https://github.com/actions/checkout/tree/d23441a48e516b6c34aea4fa41551a30e30af803)
