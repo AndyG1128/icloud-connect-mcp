@@ -11,7 +11,7 @@ The candidate was built and installed as a regular wheel in a newly created venv
 inside a read-only, network-disabled Debian 13/Linux x86_64 container with CPython
 3.12.15. HOME, temporary state and caches were new; only public candidate source
 and freshly downloaded, hash-verified dependency wheels were mounted. No host
-home, Jarvis source, active credentials/configuration or production state were
+home, other applications' source, active credentials/configuration or production state were
 mounted. Source tests imported the installed package. MCP subprocess tests were
 explicitly configured to import that installed package rather than the source tree.
 The final report contains exact artifacts/checksums and results; prior development

@@ -2,8 +2,8 @@
 
 An independent community project for connecting a **user-hosted** MCP server to
 that user's own personal iCloud mail and calendars. It is not an official Apple
-or OpenAI integration. There is no hosted shared account, LLM, Jarvis runtime
-import, database dependency, or credential discovery from another application.
+or OpenAI integration. There is no hosted shared account or LLM. Each installation
+has its own configuration, credentials and runtime storage.
 No outside contributors or maintenance organization are claimed.
 
 **0.2.0b1 is a source-only self-hosted beta.** Authored

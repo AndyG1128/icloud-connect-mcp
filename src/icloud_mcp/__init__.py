@@ -1,3 +1,3 @@
-"""Independent iCloud MCP connector. No Jarvis runtime dependencies."""
+"""Independent iCloud MCP connector."""
 
 __version__ = "0.1.0"

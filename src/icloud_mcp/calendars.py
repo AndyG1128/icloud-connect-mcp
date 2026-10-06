@@ -1,4 +1,4 @@
-"""CalDAV discovery and conditional resource writes, independent of Jarvis."""
+"""CalDAV discovery and conditional resource writes."""
 from contextlib import contextmanager
 from copy import deepcopy
 from datetime import datetime, timedelta
