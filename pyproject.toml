@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icloud-connect-mcp"
+version = "0.2.0b1"
+description = "Independent community self-hosted iCloud mail and calendar MCP connector"
+authors = [{name = "andyg1128"}]
+readme = "README.md"
+requires-python = ">=3.12"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE.md", "THIRD_PARTY_NOTICES.md", "notices/**"]
+dependencies = [
+  "mcp==1.30.0", "IMAPClient==4.1.0", "aiosmtplib==5.1.3",
+  "caldav==3.3.1", "icalendar==7.3.0", "recurring-ical-events==3.8.2",
+  "jsonschema==4.26.0", "niquests==3.21.2",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1", "pytest-asyncio==1.4.0"]
+
+[project.scripts]
+icloud-mcp = "icloud_mcp.server:main"
+
+[project.urls]
+Source = "https://github.com/AndyG1128/icloud-connect-mcp"
+Security = "https://github.com/AndyG1128/icloud-connect-mcp/blob/main/SECURITY.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-ra"

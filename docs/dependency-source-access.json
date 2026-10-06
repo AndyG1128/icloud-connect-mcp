@@ -1,0 +1,1229 @@
+{
+  "scope": "Source acquisition references only; no archive included and no complete installed-service source-offer clearance claimed. All URLs/checksums were verified during preparation.",
+  "sources": [
+    {
+      "name": "aiosmtplib",
+      "version": "5.1.3",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "aiosmtplib-5.1.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9b/5c/9cabc5db6d607616e81ba6d8f1f231cd5a75955807a308c1090a59072d6d/aiosmtplib-5.1.3.tar.gz",
+        "sha256": "ac2b418d3260ba62d9cfd0fe7359726e9dc009a4e8e8d9909fdfae332f522a7c",
+        "size": 77010,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/aiosmtplib-5.1.3/aiosmtplib-5.1.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "4096585cf0343b0713e8e7d6df73e90bb97797428b160f305e4c326f93c9b802"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "annotated_types-0.8.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5f/56/a8120250d128bed162cd73c76d45f6ef9991f3e068f62a8ee060afa3104a/annotated_types-0.8.0.tar.gz",
+        "sha256": "13b2beaad985e05e2d6407ee4c4f35590b11f8d693a258a561055cac8f64cab7",
+        "size": 15893,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/annotated-types-0.8.0/annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "anyio-4.15.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz",
+        "sha256": "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94",
+        "size": 276966,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/anyio-4.15.1/anyio-4.15.1.dist-info/licenses/LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "attrs-26.1.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz",
+        "sha256": "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32",
+        "size": 952055,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/attrs-26.1.0/attrs-26.1.0.dist-info/licenses/LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "caldav",
+      "version": "3.3.1",
+      "scope": "runtime",
+      "exact_declared_license": "GPL-3.0-or-later OR Apache-2.0",
+      "sdist": {
+        "filename": "caldav-3.3.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/2d/bb/c8d18866749d5947342af869f0f5f4b616290a19d408806da3062f1bb810/caldav-3.3.1.tar.gz",
+        "sha256": "945948cd3eca7eb5866e674e8c51c8ce30db66446762ed72d5755cb37fd87bf1",
+        "size": 715707,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/caldav-3.3.1/caldav-3.3.1.dist-info/licenses/COPYING.APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "notices/caldav-3.3.1/caldav-3.3.1.dist-info/licenses/COPYING.GPL",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "scope": "runtime",
+      "exact_declared_license": "MPL-2.0",
+      "sdist": {
+        "filename": "certifi-2026.7.22.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+        "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+        "size": 138112,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/certifi-2026.7.22/certifi-2026.7.22.dist-info/licenses/LICENSE",
+          "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "scope": "runtime",
+      "exact_declared_license": "MIT-0",
+      "sdist": {
+        "filename": "cffi-2.1.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+        "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+        "size": 530807,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/cffi-2.1.1/cffi-2.1.1.dist-info/licenses/LICENSE",
+          "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "charset_normalizer-3.5.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz",
+        "sha256": "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef",
+        "size": 172659,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/charset-normalizer-3.5.2/charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+          "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "click-8.5.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz",
+        "sha256": "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34",
+        "size": 382235,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/click-8.5.0/click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "scope": "runtime",
+      "exact_declared_license": "Apache-2.0 OR BSD-3-Clause",
+      "sdist": {
+        "filename": "cryptography-50.0.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz",
+        "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5",
+        "size": 880623,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE",
+          "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+        },
+        {
+          "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+        },
+        {
+          "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE.BSD",
+          "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+        },
+        {
+          "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json",
+          "sha256": "8fa299053f3da6ff2c5b85ce2b34bfc2870e2ea17c5a8629dea5b8285cd1d654"
+        },
+        {
+          "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/sboms/sbom.json",
+          "sha256": "90a9c8d03d95672422f4e7c611fb6d35d1a7c5fed98d032d9dc57d8965e239e6"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "dnspython",
+      "version": "2.8.0",
+      "scope": "runtime",
+      "exact_declared_license": "ISC",
+      "sdist": {
+        "filename": "dnspython-2.8.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/8c/8b/57666417c0f90f08bcafa776861060426765fdb422eb10212086fb811d26/dnspython-2.8.0.tar.gz",
+        "sha256": "181d3c6996452cb1189c4046c61599b84a5a86e099562ffde77d26984ff26d0f",
+        "size": 368251,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/dnspython-2.8.0/dnspython-2.8.0.dist-info/licenses/LICENSE",
+          "sha256": "c3ea3ff5654b329c19d3bc5f7481af623c3dded4a6145585499f843ad3d741cd"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "h11-0.16.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz",
+        "sha256": "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1",
+        "size": 101250,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/h11-0.16.0/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "httpcore-1.0.9.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz",
+        "sha256": "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8",
+        "size": 85484,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/httpcore-1.0.9/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+          "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "httpx-0.28.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz",
+        "sha256": "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc",
+        "size": 141406,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/httpx-0.28.1/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+          "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "httpx-sse",
+      "version": "0.4.3",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "httpx_sse-0.4.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/0f/4c/751061ffa58615a32c31b2d82e8482be8dd4a89154f003147acee90f2be9/httpx_sse-0.4.3.tar.gz",
+        "sha256": "9b1ed0127459a66014aec3c56bebd93da3c1bc8bb6618c8082039a44889a755d",
+        "size": 15943,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/httpx-sse-0.4.3/httpx_sse-0.4.3.dist-info/licenses/LICENSE",
+          "sha256": "beec67e4ee83a7af26f242bed9987aa863d6d2dfb776106aa2360c4187f31901"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "icalendar",
+      "version": "7.3.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-2-Clause",
+      "sdist": {
+        "filename": "icalendar-7.3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/47/2b/1bbf82d316df18c3331d9a06228819c8a5814ceda545a3e9980e52ffce1b/icalendar-7.3.0.tar.gz",
+        "sha256": "7bd001c8e648205e1bde5c6a5b77096598e8d0893dcf57755c6c597635620132",
+        "size": 525811,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/icalendar-7.3.0/icalendar-7.3.0.dist-info/licenses/LICENSE.rst",
+          "sha256": "b947bc38239297209e92af36c02baad1099ec65a93104ca326b85a9dbb3cac50"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "icalendar-searcher",
+      "version": "1.0.6",
+      "scope": "runtime",
+      "exact_declared_license": "AGPL-3.0-or-later",
+      "sdist": {
+        "filename": "icalendar_searcher-1.0.6.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b8/65/255f6eb7589c3c98d1d739076c961d60ce70bbb55f7f406589f0245ddc6a/icalendar_searcher-1.0.6.tar.gz",
+        "sha256": "2440d4d0d9fbe0021a6647916853744dbca179abd39d25c742ebb8442bbc1bc3",
+        "size": 71418,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/icalendar-searcher-1.0.6/icalendar_searcher-1.0.6.dist-info/licenses/LICENSE.md",
+          "sha256": "00352ab19865e23bb0ab7e0f45332206aba6a66d75b3f3cc962fdd6508d63ea4"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "idna-3.20.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz",
+        "sha256": "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44",
+        "size": 216463,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/idna-3.20/idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "IMAPClient",
+      "version": "4.1.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "imapclient-4.1.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/8d/f7/4e2d2e93313d7d7542a8378200ea931ff4e29b730d9eb5a9d8debafcbc68/imapclient-4.1.0.tar.gz",
+        "sha256": "b7cefa7c9bf3ec029c007dfade191480b82eb3816fc20ab23ef48e7aec841a7f",
+        "size": 71344,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/imapclient-4.1.0/imapclient-4.1.0.dist-info/licenses/AUTHORS.rst",
+          "sha256": "7260e616c67986f23624ec683412fb994770bb06a4076fc1e95889512e9aee27"
+        },
+        {
+          "path": "notices/imapclient-4.1.0/imapclient-4.1.0.dist-info/licenses/COPYING",
+          "sha256": "3472df704ba097d0d24e994ad3080ac504b66402bab897fa374eb31be9a4ec9b"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "scope": "test",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "iniconfig-2.3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc35312d08ba8bf51fdd999c576889fc2c24cb97f4f10/iniconfig-2.3.0.tar.gz",
+        "sha256": "c76315c77db068650d49c5b56314774a7804df16fee4402c1f19d6d15d8c4730",
+        "size": 20503,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/iniconfig-2.3.0/iniconfig-2.3.0.dist-info/licenses/LICENSE",
+          "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "jh2",
+      "version": "5.0.15",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "jh2-5.0.15.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/57/fa/a3ba1417800b142d6777c48657f6b01fc46bd1a4777aba979463e36d78c5/jh2-5.0.15.tar.gz",
+        "sha256": "53fb377caca50441fd1892f60745c44d3ba8c43844c3792e73c34bf9f841adaf",
+        "size": 7336589,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/jh2-5.0.15/jh2-5.0.15.dist-info/licenses/LICENSE",
+          "sha256": "22602e44568a908c8b259d9255dff5f791603804a759e23f51379d2d17302a6c"
+        },
+        {
+          "path": "notices/jh2-5.0.15/jh2-5.0.15.dist-info/sboms/jh2.cyclonedx.json",
+          "sha256": "8c70e664ffc255bcacd5cac58da38f3d3f1fe1aa2298bfc6df0343c47e1ea222"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "jsonschema-4.26.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b3/fc/e067678238fa451312d4c62bf6e6cf5ec56375422aee02f9cb5f909b3047/jsonschema-4.26.0.tar.gz",
+        "sha256": "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326",
+        "size": 366583,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/jsonschema-4.26.0/jsonschema-4.26.0.dist-info/licenses/COPYING",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "jsonschema_specifications-2025.9.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz",
+        "sha256": "b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d",
+        "size": 32855,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/jsonschema-specifications-2025.9.1/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "lxml-6.1.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/23/ad/28ecd7cb894d172f3c9c80a075eeeb2017ac62e3632cee05a5f9493547eb/lxml-6.1.3.tar.gz",
+        "sha256": "45222d94ddd511536f3b2f7d9deae3b2339b4ce0f075f1ca25703b07cad9dd21",
+        "size": 4211198,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/lxml-6.1.3/lxml-6.1.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "8fc2b568133516e46845d2147917adeee1648e70ae9ab5ed6c5417afef4ce855"
+        },
+        {
+          "path": "notices/lxml-6.1.3/lxml-6.1.3.dist-info/licenses/LICENSES.txt",
+          "sha256": "388fa99f3bde4447cd5a4cbb114037be026854db6cfe89e112691c1d8abdcf3c"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "mcp",
+      "version": "1.30.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "mcp-1.30.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/ba/93/0142dc84a666daf8ad51a34268f34c12fd6fda4f3810c4be2504eecc8212/mcp-1.30.0.tar.gz",
+        "sha256": "445414625fce5c295faa505bb11bacece661ab6f4028d57c935db57820b7a3e4",
+        "size": 680511,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/mcp-1.30.0/mcp-1.30.0.dist-info/licenses/LICENSE",
+          "sha256": "5e13dbbc1d120fc2a03cecde7c91424ae2d7de11b63d58ded2f4431e261ee50d"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "niquests",
+      "version": "3.21.2",
+      "scope": "runtime",
+      "exact_declared_license": "Apache-2.0",
+      "sdist": {
+        "filename": "niquests-3.21.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/1c/2a/e368ec88a02c6bfc56c031ba6da9dd8099ad998fb818c28b687bee74c91a/niquests-3.21.2.tar.gz",
+        "sha256": "586d6b9475c9018a42f19f1e4688077b8158101cbf40673c63d2c1a096cc7665",
+        "size": 1094494,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/niquests-3.21.2/niquests-3.21.2.dist-info/licenses/LICENSE",
+          "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "scope": "test",
+      "exact_declared_license": "Apache-2.0 OR BSD-2-Clause",
+      "sdist": {
+        "filename": "packaging-26.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+        "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+        "size": 313412,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "scope": "test",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pluggy-1.6.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz",
+        "sha256": "7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3",
+        "size": 69412,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pluggy-1.6.0/pluggy-1.6.0.dist-info/licenses/LICENSE",
+          "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "pycparser-3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz",
+        "sha256": "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29",
+        "size": 103492,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pycparser-3.0/pycparser-3.0.dist-info/licenses/LICENSE",
+          "sha256": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.5",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pydantic-2.13.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/53/ef/fc4f868f4e2cee79f863883abffceff107875f569b848507319842d2a681/pydantic-2.13.5.tar.gz",
+        "sha256": "51a9c5f7b2f8e636f04c6cada605d9b6a3bf1348fdf945a3d8869b19bba0ee08",
+        "size": 845750,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pydantic-2.13.5/pydantic-2.13.5.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.15.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pydantic_settings-2.15.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/68/ca/31c57507b13119d7d3cfa1576dad2911a4861e3be07b579395f4e9d393f9/pydantic_settings-2.15.0.tar.gz",
+        "sha256": "694b793e84f766ba76a90ebdefc01d0a9a045dab0382bee70393da93712ad117",
+        "size": 261253,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pydantic-settings-2.15.0/pydantic_settings-2.15.0.dist-info/licenses/LICENSE",
+          "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.5",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pydantic_core-2.46.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz",
+        "sha256": "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc",
+        "size": 472262,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info/licenses/LICENSE",
+          "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+        },
+        {
+          "path": "notices/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info/sboms/pydantic-core.cyclonedx.json",
+          "sha256": "4f40c790f0cb384a793663331904117a914a50ef220b112c399d77f1463e3dd5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "scope": "test",
+      "exact_declared_license": "BSD-2-Clause",
+      "sdist": {
+        "filename": "pygments-2.21.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz",
+        "sha256": "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c",
+        "size": 5005329,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pygments-2.21.0/pygments-2.21.0.dist-info/licenses/AUTHORS",
+          "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f"
+        },
+        {
+          "path": "notices/pygments-2.21.0/pygments-2.21.0.dist-info/licenses/LICENSE",
+          "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "PyJWT",
+      "version": "2.15.1",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pyjwt-2.15.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/43/ea/5194e52748b0da83d71e082d75496eaec6e58f419f5e184786ded517e6a9/pyjwt-2.15.1.tar.gz",
+        "sha256": "4f259e80cdfb6b3fc18a7de51fd1ef9ec79652f25019bae68975ca2468a34df8",
+        "size": 121252,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pyjwt-2.15.1/pyjwt-2.15.1.dist-info/licenses/AUTHORS.rst",
+          "sha256": "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07"
+        },
+        {
+          "path": "notices/pyjwt-2.15.1/pyjwt-2.15.1.dist-info/licenses/LICENSE",
+          "sha256": "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "scope": "test",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pytest-9.1.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/e4/47/b9efed96c114afcfa3c9d3fe98a76a1d14c74a9e266d397cf6eb64be5e01/pytest-9.1.1.tar.gz",
+        "sha256": "1088fbde8f2b49d95a549a195707afa7a76a3ce9bcadc26b6d71f0ffda5fe313",
+        "size": 1636369,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pytest-9.1.1/pytest-9.1.1.dist-info/licenses/LICENSE",
+          "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "1.4.0",
+      "scope": "test",
+      "exact_declared_license": "Apache-2.0",
+      "sdist": {
+        "filename": "pytest_asyncio-1.4.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/43/7c/d36d04db312ecf4298932ef77e6e4a9e8ad017906e24e34f0b0c361a2473/pytest_asyncio-1.4.0.tar.gz",
+        "sha256": "c6c0d2259945122819f171a32ecea2c349ead889ee28176caaf492143424be42",
+        "size": 58514,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pytest-asyncio-1.4.0/pytest_asyncio-1.4.0.dist-info/licenses/LICENSE",
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "scope": "runtime",
+      "exact_declared_license": "Apache-2.0 OR BSD-3-Clause",
+      "sdist": {
+        "filename": "python-dateutil-2.9.0.post0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz",
+        "sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+        "size": 342432,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/python-dateutil-2.9.0.post0/python_dateutil-2.9.0.post0.dist-info/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "python_dotenv-1.2.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/74/26/2fbeedb218a787a5eea551c7532cac4e009f83d689dd2faa0d0353473f86/python_dotenv-1.2.4.tar.gz",
+        "sha256": "f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0",
+        "size": 60824,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/python-dotenv-1.2.4/python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+          "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.32",
+      "scope": "runtime",
+      "exact_declared_license": "Apache-2.0",
+      "sdist": {
+        "filename": "python_multipart-0.0.32.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5b/42/55c32bb9b12693c092ad250a0e82edb5b31ddeda6eb772de5f308b3804ad/python_multipart-0.0.32.tar.gz",
+        "sha256": "be54b7f3fa167bb83e4fcd936b887b708f4e57fe75911c02aebf53efaf8d938e",
+        "size": 46881,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/python-multipart-0.0.32/python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "pyyaml-6.0.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz",
+        "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f",
+        "size": 130960,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/pyyaml-6.0.3/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+          "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "qh3",
+      "version": "2.0.4",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "qh3-2.0.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/76/d3/692f1410aad9cfda0001e1e74533cb2cbdf0c525a8e7c2e4c587a51929ae/qh3-2.0.4.tar.gz",
+        "sha256": "72b174c9dabfccdddf050dabc3c1b49972ed7a7564896d3db558e57376187f75",
+        "size": 380633,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/qh3-2.0.4/qh3-2.0.4.dist-info/licenses/LICENSE",
+          "sha256": "85beac6e7c12428f69d72349754e12e8155a0ce609960fd99e3889af4ee5ba7e"
+        },
+        {
+          "path": "notices/qh3-2.0.4/qh3-2.0.4.dist-info/sboms/qh3.cyclonedx.json",
+          "sha256": "2262306c39d82e345220e5f2df99eebd9bfe74bee3c3eedf76e8614fd1a87566"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "recurring-ical-events",
+      "version": "3.8.2",
+      "scope": "runtime",
+      "exact_declared_license": "LGPL-3.0-or-later",
+      "sdist": {
+        "filename": "recurring_ical_events-3.8.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b9/f5/898abd8fbb25766ec6cb17b244730ebf192f47963c71eeacd61aadd903a1/recurring_ical_events-3.8.2.tar.gz",
+        "sha256": "e731af31d0b7dec5cd47a1defacd8549e2f36fab1c1995e8b9f042822a0acf8e",
+        "size": 604992,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/recurring-ical-events-3.8.2/recurring_ical_events-3.8.2.dist-info/licenses/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "referencing-0.37.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz",
+        "sha256": "44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8",
+        "size": 78036,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/referencing-0.37.0/referencing-0.37.0.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "rpds_py-2026.9.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz",
+        "sha256": "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12",
+        "size": 63948,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+          "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909"
+        },
+        {
+          "path": "notices/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json",
+          "sha256": "0c8885a9d45f3c9280aeb1e06701077036748b22bd6e3a4201fe09e6b73f99b5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "scope": "build",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "setuptools-84.0.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/6d/44/f5da03a8ef95d369145c5bb53050e7877c9f3d312e128605fd9504829143/setuptools-84.0.0.tar.gz",
+        "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
+        "size": 1168449,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/setuptools-84.0.0/setuptools-84.0.0.dist-info/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+          "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+          "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+          "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+          "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+          "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+          "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+        },
+        {
+          "path": "notices/setuptools-84.0.0/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+          "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "six-1.17.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz",
+        "sha256": "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81",
+        "size": 34031,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/six-1.17.0/six-1.17.0.dist-info/LICENSE",
+          "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "sse-starlette",
+      "version": "3.5.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "sse_starlette-3.5.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/e4/be/0123026f719d1a7936f214a88b553bb5701e04ff2511147c1dab0c5035eb/sse_starlette-3.5.0.tar.gz",
+        "sha256": "75de713aa8a9441513cc283220826da079d982770965b951e9437720e8bafdb2",
+        "size": 36794,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/sse-starlette-3.5.0/sse_starlette-3.5.0.dist-info/licenses/AUTHORS",
+          "sha256": "c2ff63d2ecf128bbda8ab1b2016830a5da124202fbb97168685bb9946aed3f1a"
+        },
+        {
+          "path": "notices/sse-starlette-3.5.0/sse_starlette-3.5.0.dist-info/licenses/LICENSE",
+          "sha256": "80af6bfccbebd2c14d4aab96695cab9950e177190cc80f5ef819e99996883e8e"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "starlette",
+      "version": "1.7.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "starlette-1.7.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/7b/2b/3850dc6bf7ef71b088962eba31dafc6cffd2f96e577ebb0bb316df96da3e/starlette-1.7.0.tar.gz",
+        "sha256": "c79f74ea63cff761804fbbfb182f1e0b440c2d07b164d24700c5a1bab5d6ff5d",
+        "size": 2736246,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/starlette-1.7.0/starlette-1.7.0.dist-info/licenses/LICENSE.md",
+          "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "typing_inspection-0.4.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz",
+        "sha256": "547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47",
+        "size": 76928,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+          "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "scope": "runtime",
+      "exact_declared_license": "PSF-2.0",
+      "sdist": {
+        "filename": "typing_extensions-4.16.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+        "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+        "size": 113555,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/typing-extensions-4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5",
+      "scope": "runtime",
+      "exact_declared_license": "Apache-2.0",
+      "sdist": {
+        "filename": "tzdata-2026.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/d9/68/f1b440335057bfce71b6e50a9d09445aa2ecbd08359a337976627b8409e7/tzdata-2026.5.tar.gz",
+        "sha256": "8cc73c0a0bfca7dbfa59235d60b2eff82231dee33f53d206db1acd9173cfc0a7",
+        "size": 200404,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/tzdata-2026.5/tzdata-2026.5.dist-info/licenses/LICENSE",
+          "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+        },
+        {
+          "path": "notices/tzdata-2026.5/tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "urllib3-future",
+      "version": "2.25.902",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "urllib3_future-2.25.902.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a7/71/b8238b130ed77fafb067d87d26045fe67963494150a5977d4658712a826a/urllib3_future-2.25.902.tar.gz",
+        "sha256": "5c443668b9f87bce38bad1fdec7d7950c47e9c5b7328b1fd029a429741f3be70",
+        "size": 1530236,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/urllib3-future-2.25.902/urllib3_future-2.25.902.dist-info/licenses/LICENSE.txt",
+          "sha256": "3a387d8ea43ca7ac1edfff291862cb5913feb7949108a46c7154287552293dad"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "scope": "runtime",
+      "exact_declared_license": "BSD-3-Clause",
+      "sdist": {
+        "filename": "uvicorn-0.54.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/da/34/30e9280707135d2cfc589dfff3cb796bd07a3aeb1a3e415ba09dd89d7bb4/uvicorn-0.54.0.tar.gz",
+        "sha256": "a2e33cbfaa0306f8e6b0c13e0cb89d7d7a2da3e62b90c66e18c33d9807b28620",
+        "size": 112283,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/uvicorn-0.54.0/uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "wassima",
+      "version": "2.1.4",
+      "scope": "runtime",
+      "exact_declared_license": "MIT",
+      "sdist": {
+        "filename": "wassima-2.1.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5f/92/fe256733440f7c36084ce924f373fbbf709277ddf92262b2295e8caf26d5/wassima-2.1.4.tar.gz",
+        "sha256": "21bb77253bb8032c05393172c4d2df395f423b7e704538f3b2407f50c032034d",
+        "size": 143472,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/wassima-2.1.4/wassima-2.1.4.dist-info/licenses/LICENSE",
+          "sha256": "3465c55e04631360aaa79364091d41979d78eb5c6c8e6c15b6cd55b62a4711f5"
+        }
+      ],
+      "modifications_by_project": false
+    },
+    {
+      "name": "x-wr-timezone",
+      "version": "2.0.1",
+      "scope": "runtime",
+      "exact_declared_license": "LGPL-3.0-or-later",
+      "sdist": {
+        "filename": "x_wr_timezone-2.0.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/79/2b/8ae5f59ab852c8fe32dd37c1aa058eb98aca118fec2d3af5c3cd56fffb7b/x_wr_timezone-2.0.1.tar.gz",
+        "sha256": "9166c40e6ffd4c0edebabc354e1a1e2cffc1bb473f88007694793757685cc8c3",
+        "size": 18212,
+        "kind": "sdist"
+      },
+      "notice_files": [
+        {
+          "path": "notices/x-wr-timezone-2.0.1/x_wr_timezone-2.0.1.dist-info/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        }
+      ],
+      "modifications_by_project": false
+    }
+  ]
+}

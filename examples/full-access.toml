@@ -1,0 +1,14 @@
+# Full access requires an explicit operator change and client write approvals.
+profile = "full-access"
+timezone = "UTC"
+account_email = "owner@example.invalid"
+username = "owner@example.invalid"
+password_file = "/run/secrets/icloud_app_password"
+state_dir = "/var/lib/icloud-mcp"
+permanent_expunge = false
+sent_folder = "Sent Messages"
+# Optional granular permission/resource restrictions also apply in this profile.
+# permissions = ["connector_ping", "search_messages", "fetch_message", "send_message"]
+# Sending/replying also needs permission for the configured Sent folder.
+# folders = ["INBOX", "Sent Messages"]
+# calendars = []

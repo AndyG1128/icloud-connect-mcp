@@ -1,0 +1,24 @@
+{
+  "publisher": {
+    "environment": "pypi",
+    "kind": "GitHub",
+    "repository": "jawah/qh3",
+    "workflow": "CI.yml"
+  },
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "subject": [
+      {
+        "name": "qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "digest": {
+          "sha256": "af34fad8554560fa38304f61708176379d5efb192da2ece5fb25dec23c304b36"
+        }
+      }
+    ],
+    "predicateType": "https://docs.pypi.org/attestations/publish/v1",
+    "predicate": null
+  },
+  "workflow_source": "https://raw.githubusercontent.com/jawah/qh3/8a80f8fb0df9221b5e633ff1c6eecdcb365aa6e5/.github/workflows/CI.yml",
+  "workflow_sha256": "7885fc3a1716addaa06a8cc66a66a7876542e8e219f88613af9a95960d868724",
+  "verification_limit": "PyPI publication metadata and pinned workflow were inspected; signature verification and exact native build reconstruction were not performed. No explicit FIPS feature is requested by the x86_64 wheel build workflow. Publication provenance is not complete build provenance."
+}

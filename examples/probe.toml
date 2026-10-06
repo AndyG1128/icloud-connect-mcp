@@ -1,0 +1,4 @@
+profile = "read-only"
+timezone = "UTC"
+state_dir = "/tmp/icloud-connect-mcp-probe"
+permanent_expunge = false

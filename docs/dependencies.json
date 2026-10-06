@@ -1,0 +1,2345 @@
+[
+  {
+    "name": "aiosmtplib",
+    "version": "5.1.3",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/9c/0a/b56ab8163d54960337fdca475d3dfd56c8badf6172e79cf2ad00d5335dc1/aiosmtplib-5.1.3-py3-none-any.whl",
+    "wheel_sha256": "f7d76ce3d4995a65a178c1f11e1bd1607706b921d00cb768e7a2c7f7ef5517a8",
+    "license_files": [
+      {
+        "path": "notices/aiosmtplib-5.1.3/aiosmtplib-5.1.3.dist-info/licenses/LICENSE.txt",
+        "sha256": "4096585cf0343b0713e8e7d6df73e90bb97797428b160f305e4c326f93c9b802"
+      }
+    ],
+    "source": "https://pypi.org/project/aiosmtplib/5.1.3/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "furo>=2023.9.10; extra == \"docs\"",
+      "sphinx-autodoc-typehints>=1.24.0; extra == \"docs\"",
+      "sphinx-copybutton>=0.5.0; extra == \"docs\"",
+      "sphinx>=7.0.0; extra == \"docs\"",
+      "uvloop>=0.18; extra == \"uvloop\""
+    ],
+    "artifacts": [
+      {
+        "filename": "aiosmtplib-5.1.3-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/9c/0a/b56ab8163d54960337fdca475d3dfd56c8badf6172e79cf2ad00d5335dc1/aiosmtplib-5.1.3-py3-none-any.whl",
+        "sha256": "f7d76ce3d4995a65a178c1f11e1bd1607706b921d00cb768e7a2c7f7ef5517a8",
+        "size": 30116,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "aiosmtplib-5.1.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9b/5c/9cabc5db6d607616e81ba6d8f1f231cd5a75955807a308c1090a59072d6d/aiosmtplib-5.1.3.tar.gz",
+        "sha256": "ac2b418d3260ba62d9cfd0fe7359726e9dc009a4e8e8d9909fdfae332f522a7c",
+        "size": 77010,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+    "wheel_sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+    "license_files": [
+      {
+        "path": "notices/annotated-types-0.8.0/annotated_types-0.8.0.dist-info/licenses/LICENSE",
+        "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+      }
+    ],
+    "source": "https://pypi.org/project/annotated-types/0.8.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "annotated_types-0.8.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+        "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+        "size": 13427,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "annotated_types-0.8.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5f/56/a8120250d128bed162cd73c76d45f6ef9991f3e068f62a8ee060afa3104a/annotated_types-0.8.0.tar.gz",
+        "sha256": "13b2beaad985e05e2d6407ee4c4f35590b11f8d693a258a561055cac8f64cab7",
+        "size": 15893,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+    "wheel_sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+    "license_files": [
+      {
+        "path": "notices/anyio-4.15.1/anyio-4.15.1.dist-info/licenses/LICENSE",
+        "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+      }
+    ],
+    "source": "https://pypi.org/project/anyio/4.15.1/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+      "idna>=2.8",
+      "typing_extensions>=4.16.0; python_version < \"3.15\"",
+      "trio>=0.32.0; extra == \"trio\""
+    ],
+    "artifacts": [
+      {
+        "filename": "anyio-4.15.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+        "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+        "size": 132079,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "anyio-4.15.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz",
+        "sha256": "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94",
+        "size": 276966,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+    "wheel_sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+    "license_files": [
+      {
+        "path": "notices/attrs-26.1.0/attrs-26.1.0.dist-info/licenses/LICENSE",
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+      }
+    ],
+    "source": "https://pypi.org/project/attrs/26.1.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "attrs-26.1.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+        "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+        "size": 67548,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "attrs-26.1.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz",
+        "sha256": "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32",
+        "size": 952055,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "caldav",
+    "version": "3.3.1",
+    "scope": "runtime",
+    "license": "GPL-3.0-or-later OR Apache-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/59/7b/1a80286115026c556a750f93bbb9c8a79ac84e9702687623075d596c8f35/caldav-3.3.1-py3-none-any.whl",
+    "wheel_sha256": "f469371d30a5902a71ba383d4b1b030ef72053b882a351b285cb3e430babdcda",
+    "license_files": [
+      {
+        "path": "notices/caldav-3.3.1/caldav-3.3.1.dist-info/licenses/COPYING.APACHE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "notices/caldav-3.3.1/caldav-3.3.1.dist-info/licenses/COPYING.GPL",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ],
+    "source": "https://pypi.org/project/caldav/3.3.1/#files",
+    "upstream_license_expression": "GPL-3.0-or-later OR Apache-2.0",
+    "upstream_requires": [
+      "dnspython",
+      "icalendar-searcher<2,>=1.0.5",
+      "icalendar>6.0.0",
+      "lxml",
+      "niquests",
+      "python-dateutil",
+      "pyyaml",
+      "recurring-ical-events>=2.0.0",
+      "typing-extensions; python_version < \"3.11\"",
+      "niquests; extra == \"niquests\"",
+      "coverage; extra == \"test\"",
+      "deptry>=0.24.0; python_version >= \"3.10\" and extra == \"test\"",
+      "httpx; extra == \"test\"",
+      "httpxyz; extra == \"test\"",
+      "manuel; extra == \"test\"",
+      "proxy-py; extra == \"test\"",
+      "pyfakefs; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-asyncio; extra == \"test\"",
+      "radicale; extra == \"test\"",
+      "tzlocal; extra == \"test\"",
+      "vobject; extra == \"test\"",
+      "xandikos>=0.3.3; extra == \"test\""
+    ],
+    "artifacts": [
+      {
+        "filename": "caldav-3.3.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/59/7b/1a80286115026c556a750f93bbb9c8a79ac84e9702687623075d596c8f35/caldav-3.3.1-py3-none-any.whl",
+        "sha256": "f469371d30a5902a71ba383d4b1b030ef72053b882a351b285cb3e430babdcda",
+        "size": 265547,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "caldav-3.3.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/2d/bb/c8d18866749d5947342af869f0f5f4b616290a19d408806da3062f1bb810/caldav-3.3.1.tar.gz",
+        "sha256": "945948cd3eca7eb5866e674e8c51c8ce30db66446762ed72d5755cb37fd87bf1",
+        "size": 715707,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "scope": "runtime",
+    "license": "MPL-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl",
+    "wheel_sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+    "license_files": [
+      {
+        "path": "notices/certifi-2026.7.22/certifi-2026.7.22.dist-info/licenses/LICENSE",
+        "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+      }
+    ],
+    "source": "https://pypi.org/project/certifi/2026.7.22/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "certifi-2026.7.22-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl",
+        "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+        "size": 136983,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "certifi-2026.7.22.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+        "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+        "size": 138112,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "scope": "runtime",
+    "license": "MIT-0",
+    "wheel_url": "https://files.pythonhosted.org/packages/b1/db/dceb9dd5b231e1da801793f8acc9f3c52a7e1afe40bb1aae37e02b0faad5/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "wheel_sha256": "c1453022f490d2459a11819d83ad1d586e9ff65a12ac3e705ffebd46d3685dcf",
+    "license_files": [
+      {
+        "path": "notices/cffi-2.1.1/cffi-2.1.1.dist-info/licenses/LICENSE",
+        "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+      }
+    ],
+    "source": "https://pypi.org/project/cffi/2.1.1/#files",
+    "upstream_license_expression": "MIT-0",
+    "upstream_requires": [
+      "pycparser; implementation_name != \"PyPy\""
+    ],
+    "artifacts": [
+      {
+        "filename": "cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/b1/db/dceb9dd5b231e1da801793f8acc9f3c52a7e1afe40bb1aae37e02b0faad5/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "sha256": "c1453022f490d2459a11819d83ad1d586e9ff65a12ac3e705ffebd46d3685dcf",
+        "size": 221822,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "cffi-2.1.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+        "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+        "size": 530807,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/7f/c5/38806a25ab5e65fc178f39affeda20858efafede2fce1ffc2556cfc9fe73/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "wheel_sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649",
+    "license_files": [
+      {
+        "path": "notices/charset-normalizer-3.5.2/charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+        "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+      }
+    ],
+    "source": "https://pypi.org/project/charset-normalizer/3.5.2/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/7f/c5/38806a25ab5e65fc178f39affeda20858efafede2fce1ffc2556cfc9fe73/charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649",
+        "size": 257601,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "charset_normalizer-3.5.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz",
+        "sha256": "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef",
+        "size": 172659,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+    "wheel_sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+    "license_files": [
+      {
+        "path": "notices/click-8.5.0/click-8.5.0.dist-info/licenses/LICENSE.txt",
+        "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+      }
+    ],
+    "source": "https://pypi.org/project/click/8.5.0/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "click-8.5.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+        "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+        "size": 125251,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "click-8.5.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz",
+        "sha256": "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34",
+        "size": 382235,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "scope": "runtime",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+    "wheel_sha256": "9dab55f57c74c3cad24c323bacbbd04be4705ba6eb0d92e920b1fc4837ed5079",
+    "license_files": [
+      {
+        "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE",
+        "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+      },
+      {
+        "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE.APACHE",
+        "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+      },
+      {
+        "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/licenses/LICENSE.BSD",
+        "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+      },
+      {
+        "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json",
+        "sha256": "8fa299053f3da6ff2c5b85ce2b34bfc2870e2ea17c5a8629dea5b8285cd1d654"
+      },
+      {
+        "path": "notices/cryptography-50.0.2/cryptography-50.0.2.dist-info/sboms/sbom.json",
+        "sha256": "90a9c8d03d95672422f4e7c611fb6d35d1a7c5fed98d032d9dc57d8965e239e6"
+      }
+    ],
+    "source": "https://pypi.org/project/cryptography/50.0.2/#files",
+    "upstream_license_expression": "Apache-2.0 OR BSD-3-Clause",
+    "upstream_requires": [
+      "cffi>=2.0.0; platform_python_implementation != \"PyPy\"",
+      "typing-extensions>=4.13.2; python_full_version < \"3.11\"",
+      "bcrypt>=3.1.5; extra == \"ssh\""
+    ],
+    "artifacts": [
+      {
+        "filename": "cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/d3/69/2c833a049475e0a3444e94c7d0aca0aa51d166374a449b09e92ac98138de/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl",
+        "sha256": "9dab55f57c74c3cad24c323bacbbd04be4705ba6eb0d92e920b1fc4837ed5079",
+        "size": 4752576,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "cryptography-50.0.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz",
+        "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5",
+        "size": 880623,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "dnspython",
+    "version": "2.8.0",
+    "scope": "runtime",
+    "license": "ISC",
+    "wheel_url": "https://files.pythonhosted.org/packages/ba/5a/18ad964b0086c6e62e2e7500f7edc89e3faa45033c71c1893d34eed2b2de/dnspython-2.8.0-py3-none-any.whl",
+    "wheel_sha256": "01d9bbc4a2d76bf0db7c1f729812ded6d912bd318d3b1cf81d30c0f845dbf3af",
+    "license_files": [
+      {
+        "path": "notices/dnspython-2.8.0/dnspython-2.8.0.dist-info/licenses/LICENSE",
+        "sha256": "c3ea3ff5654b329c19d3bc5f7481af623c3dded4a6145585499f843ad3d741cd"
+      }
+    ],
+    "source": "https://pypi.org/project/dnspython/2.8.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "black>=25.1.0; extra == \"dev\"",
+      "coverage>=7.0; extra == \"dev\"",
+      "flake8>=7; extra == \"dev\"",
+      "hypercorn>=0.17.0; extra == \"dev\"",
+      "mypy>=1.17; extra == \"dev\"",
+      "pylint>=3; extra == \"dev\"",
+      "pytest-cov>=6.2.0; extra == \"dev\"",
+      "pytest>=8.4; extra == \"dev\"",
+      "quart-trio>=0.12.0; extra == \"dev\"",
+      "sphinx-rtd-theme>=3.0.0; extra == \"dev\"",
+      "sphinx>=8.2.0; extra == \"dev\"",
+      "twine>=6.1.0; extra == \"dev\"",
+      "wheel>=0.45.0; extra == \"dev\"",
+      "cryptography>=45; extra == \"dnssec\"",
+      "h2>=4.2.0; extra == \"doh\"",
+      "httpcore>=1.0.0; extra == \"doh\"",
+      "httpx>=0.28.0; extra == \"doh\"",
+      "aioquic>=1.2.0; extra == \"doq\"",
+      "idna>=3.10; extra == \"idna\"",
+      "trio>=0.30; extra == \"trio\"",
+      "wmi>=1.5.1; platform_system == \"Windows\" and extra == \"wmi\""
+    ],
+    "artifacts": [
+      {
+        "filename": "dnspython-2.8.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/ba/5a/18ad964b0086c6e62e2e7500f7edc89e3faa45033c71c1893d34eed2b2de/dnspython-2.8.0-py3-none-any.whl",
+        "sha256": "01d9bbc4a2d76bf0db7c1f729812ded6d912bd318d3b1cf81d30c0f845dbf3af",
+        "size": 331094,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "dnspython-2.8.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/8c/8b/57666417c0f90f08bcafa776861060426765fdb422eb10212086fb811d26/dnspython-2.8.0.tar.gz",
+        "sha256": "181d3c6996452cb1189c4046c61599b84a5a86e099562ffde77d26984ff26d0f",
+        "size": 368251,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+    "wheel_sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+    "license_files": [
+      {
+        "path": "notices/h11-0.16.0/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+        "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+      }
+    ],
+    "source": "https://pypi.org/project/h11/0.16.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "h11-0.16.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+        "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+        "size": 37515,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "h11-0.16.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz",
+        "sha256": "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1",
+        "size": 101250,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+    "wheel_sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+    "license_files": [
+      {
+        "path": "notices/httpcore-1.0.9/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+        "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+      }
+    ],
+    "source": "https://pypi.org/project/httpcore/1.0.9/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": [
+      "certifi",
+      "h11>=0.16",
+      "anyio<5.0,>=4.0; extra == \"asyncio\"",
+      "h2<5,>=3; extra == \"http2\"",
+      "socksio==1.*; extra == \"socks\"",
+      "trio<1.0,>=0.22.0; extra == \"trio\""
+    ],
+    "artifacts": [
+      {
+        "filename": "httpcore-1.0.9-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+        "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+        "size": 78784,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "httpcore-1.0.9.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz",
+        "sha256": "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8",
+        "size": 85484,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+    "wheel_sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+    "license_files": [
+      {
+        "path": "notices/httpx-0.28.1/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+        "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+      }
+    ],
+    "source": "https://pypi.org/project/httpx/0.28.1/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "anyio",
+      "certifi",
+      "httpcore==1.*",
+      "idna",
+      "brotli; platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+      "brotlicffi; platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+      "click==8.*; extra == \"cli\"",
+      "pygments==2.*; extra == \"cli\"",
+      "rich<14,>=10; extra == \"cli\"",
+      "h2<5,>=3; extra == \"http2\"",
+      "socksio==1.*; extra == \"socks\"",
+      "zstandard>=0.18.0; extra == \"zstd\""
+    ],
+    "artifacts": [
+      {
+        "filename": "httpx-0.28.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+        "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+        "size": 73517,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "httpx-0.28.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b1/df/48c586a5fe32a0f01324ee087459e112ebb7224f646c0b5023f5e79e9956/httpx-0.28.1.tar.gz",
+        "sha256": "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc",
+        "size": 141406,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "httpx-sse",
+    "version": "0.4.3",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/d2/fd/6668e5aec43ab844de6fc74927e155a3b37bf40d7c3790e49fc0406b6578/httpx_sse-0.4.3-py3-none-any.whl",
+    "wheel_sha256": "0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc",
+    "license_files": [
+      {
+        "path": "notices/httpx-sse-0.4.3/httpx_sse-0.4.3.dist-info/licenses/LICENSE",
+        "sha256": "beec67e4ee83a7af26f242bed9987aa863d6d2dfb776106aa2360c4187f31901"
+      }
+    ],
+    "source": "https://pypi.org/project/httpx-sse/0.4.3/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "httpx_sse-0.4.3-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/d2/fd/6668e5aec43ab844de6fc74927e155a3b37bf40d7c3790e49fc0406b6578/httpx_sse-0.4.3-py3-none-any.whl",
+        "sha256": "0ac1c9fe3c0afad2e0ebb25a934a59f4c7823b60792691f779fad2c5568830fc",
+        "size": 8960,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "httpx_sse-0.4.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/0f/4c/751061ffa58615a32c31b2d82e8482be8dd4a89154f003147acee90f2be9/httpx_sse-0.4.3.tar.gz",
+        "sha256": "9b1ed0127459a66014aec3c56bebd93da3c1bc8bb6618c8082039a44889a755d",
+        "size": 15943,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "icalendar",
+    "version": "7.3.0",
+    "scope": "runtime",
+    "license": "BSD-2-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/bb/82/50bff78b0bb0c7d7c0cb39e0ee189b92f611fff6bd7cf57f25e92d5a7551/icalendar-7.3.0-py3-none-any.whl",
+    "wheel_sha256": "8355acfe17be81b368f0b1e3740817cea9b56ea889931f8f1a87c62f2d28db0b",
+    "license_files": [
+      {
+        "path": "notices/icalendar-7.3.0/icalendar-7.3.0.dist-info/licenses/LICENSE.rst",
+        "sha256": "b947bc38239297209e92af36c02baad1099ec65a93104ca326b85a9dbb3cac50"
+      }
+    ],
+    "source": "https://pypi.org/project/icalendar/7.3.0/#files",
+    "upstream_license_expression": "BSD-2-Clause",
+    "upstream_requires": [
+      "python-dateutil",
+      "typing-extensions~=4.10; python_version < \"3.13\"",
+      "tzdata>=2025.3"
+    ],
+    "artifacts": [
+      {
+        "filename": "icalendar-7.3.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/bb/82/50bff78b0bb0c7d7c0cb39e0ee189b92f611fff6bd7cf57f25e92d5a7551/icalendar-7.3.0-py3-none-any.whl",
+        "sha256": "8355acfe17be81b368f0b1e3740817cea9b56ea889931f8f1a87c62f2d28db0b",
+        "size": 542540,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "icalendar-7.3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/47/2b/1bbf82d316df18c3331d9a06228819c8a5814ceda545a3e9980e52ffce1b/icalendar-7.3.0.tar.gz",
+        "sha256": "7bd001c8e648205e1bde5c6a5b77096598e8d0893dcf57755c6c597635620132",
+        "size": 525811,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "icalendar-searcher",
+    "version": "1.0.6",
+    "scope": "runtime",
+    "license": "AGPL-3.0-or-later",
+    "wheel_url": "https://files.pythonhosted.org/packages/0b/34/2248bb70ca2b4affa2e80623d3bae38a51b435254c3ce17dcff883a44a00/icalendar_searcher-1.0.6-py3-none-any.whl",
+    "wheel_sha256": "649aad558df211bc50ca3dea3646e1b2f3e93f0995bca2b6358e9c79031471b6",
+    "license_files": [
+      {
+        "path": "notices/icalendar-searcher-1.0.6/icalendar_searcher-1.0.6.dist-info/licenses/LICENSE.md",
+        "sha256": "00352ab19865e23bb0ab7e0f45332206aba6a66d75b3f3cc962fdd6508d63ea4"
+      }
+    ],
+    "source": "https://pypi.org/project/icalendar-searcher/1.0.6/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "icalendar>=6.0",
+      "recurring-ical-events>=3.8.0",
+      "pyicu; extra == \"collation\"",
+      "deptry>=0.24.0; extra == \"dev\"",
+      "pre-commit; extra == \"dev\"",
+      "pyicu; extra == \"dev\"",
+      "pytest<10.0.0,>=8.0.0; extra == \"dev\"",
+      "ruff; extra == \"dev\""
+    ],
+    "artifacts": [
+      {
+        "filename": "icalendar_searcher-1.0.6-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/0b/34/2248bb70ca2b4affa2e80623d3bae38a51b435254c3ce17dcff883a44a00/icalendar_searcher-1.0.6-py3-none-any.whl",
+        "sha256": "649aad558df211bc50ca3dea3646e1b2f3e93f0995bca2b6358e9c79031471b6",
+        "size": 38251,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "icalendar_searcher-1.0.6.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b8/65/255f6eb7589c3c98d1d739076c961d60ce70bbb55f7f406589f0245ddc6a/icalendar_searcher-1.0.6.tar.gz",
+        "sha256": "2440d4d0d9fbe0021a6647916853744dbca179abd39d25c742ebb8442bbc1bc3",
+        "size": 71418,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+    "wheel_sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+    "license_files": [
+      {
+        "path": "notices/idna-3.20/idna-3.20.dist-info/licenses/LICENSE.md",
+        "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+      }
+    ],
+    "source": "https://pypi.org/project/idna/3.20/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": [
+      "ruff>=0.16.0; extra == \"all\"",
+      "mypy>=1.11.2; extra == \"all\"",
+      "ty>=0.0.37; extra == \"all\"",
+      "pytest>=8.3.2; extra == \"all\"",
+      "hypothesis>=6.141.1; extra == \"all\"",
+      "coverage>=7.10.0; extra == \"all\""
+    ],
+    "artifacts": [
+      {
+        "filename": "idna-3.20-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+        "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+        "size": 69583,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "idna-3.20.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz",
+        "sha256": "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44",
+        "size": 216463,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "IMAPClient",
+    "version": "4.1.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/52/49/12fe5860e37f2e915ecbcc6c743bc71c84c6d0f4c9002f3c5a66f79b172d/imapclient-4.1.0-py3-none-any.whl",
+    "wheel_sha256": "5fd62ab2a099494ed2a5a21e7bda03c1e99e3d55bdedb4e9c12c8176873a8fe4",
+    "license_files": [
+      {
+        "path": "notices/imapclient-4.1.0/imapclient-4.1.0.dist-info/licenses/AUTHORS.rst",
+        "sha256": "7260e616c67986f23624ec683412fb994770bb06a4076fc1e95889512e9aee27"
+      },
+      {
+        "path": "notices/imapclient-4.1.0/imapclient-4.1.0.dist-info/licenses/COPYING",
+        "sha256": "3472df704ba097d0d24e994ad3080ac504b66402bab897fa374eb31be9a4ec9b"
+      }
+    ],
+    "source": "https://pypi.org/project/IMAPClient/4.1.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "imapclient-4.1.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/52/49/12fe5860e37f2e915ecbcc6c743bc71c84c6d0f4c9002f3c5a66f79b172d/imapclient-4.1.0-py3-none-any.whl",
+        "sha256": "5fd62ab2a099494ed2a5a21e7bda03c1e99e3d55bdedb4e9c12c8176873a8fe4",
+        "size": 56039,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "imapclient-4.1.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/8d/f7/4e2d2e93313d7d7542a8378200ea931ff4e29b730d9eb5a9d8debafcbc68/imapclient-4.1.0.tar.gz",
+        "sha256": "b7cefa7c9bf3ec029c007dfade191480b82eb3816fc20ab23ef48e7aec841a7f",
+        "size": 71344,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.0",
+    "scope": "test",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl",
+    "wheel_sha256": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+    "license_files": [
+      {
+        "path": "notices/iniconfig-2.3.0/iniconfig-2.3.0.dist-info/licenses/LICENSE",
+        "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4"
+      }
+    ],
+    "source": "https://pypi.org/project/iniconfig/2.3.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "iniconfig-2.3.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/cb/b1/3846dd7f199d53cb17f49cba7e651e9ce294d8497c8c150530ed11865bb8/iniconfig-2.3.0-py3-none-any.whl",
+        "sha256": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+        "size": 7484,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "iniconfig-2.3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc35312d08ba8bf51fdd999c576889fc2c24cb97f4f10/iniconfig-2.3.0.tar.gz",
+        "sha256": "c76315c77db068650d49c5b56314774a7804df16fee4402c1f19d6d15d8c4730",
+        "size": 20503,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "jh2",
+    "version": "5.0.15",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/55/fa/d80e721e77714ccda44437da86b8424dd03ce07977c8f7f0dc3d6efd805c/jh2-5.0.15-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "ea4ac921ddd2d519646df9b94f96e2cd55529f92f6d7ff4c65508ca2f65399ef",
+    "license_files": [
+      {
+        "path": "notices/jh2-5.0.15/jh2-5.0.15.dist-info/licenses/LICENSE",
+        "sha256": "22602e44568a908c8b259d9255dff5f791603804a759e23f51379d2d17302a6c"
+      },
+      {
+        "path": "notices/jh2-5.0.15/jh2-5.0.15.dist-info/sboms/jh2.cyclonedx.json",
+        "sha256": "8c70e664ffc255bcacd5cac58da38f3d3f1fe1aa2298bfc6df0343c47e1ea222"
+      }
+    ],
+    "source": "https://pypi.org/project/jh2/5.0.15/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "jh2-5.0.15-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/55/fa/d80e721e77714ccda44437da86b8424dd03ce07977c8f7f0dc3d6efd805c/jh2-5.0.15-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "ea4ac921ddd2d519646df9b94f96e2cd55529f92f6d7ff4c65508ca2f65399ef",
+        "size": 407364,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "jh2-5.0.15.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/57/fa/a3ba1417800b142d6777c48657f6b01fc46bd1a4777aba979463e36d78c5/jh2-5.0.15.tar.gz",
+        "sha256": "53fb377caca50441fd1892f60745c44d3ba8c43844c3792e73c34bf9f841adaf",
+        "size": 7336589,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+    "wheel_sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+    "license_files": [
+      {
+        "path": "notices/jsonschema-4.26.0/jsonschema-4.26.0.dist-info/licenses/COPYING",
+        "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+      }
+    ],
+    "source": "https://pypi.org/project/jsonschema/4.26.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "attrs>=22.2.0",
+      "jsonschema-specifications>=2023.03.6",
+      "referencing>=0.28.4",
+      "rpds-py>=0.25.0",
+      "fqdn; extra == \"format\"",
+      "idna; extra == \"format\"",
+      "isoduration; extra == \"format\"",
+      "jsonpointer>1.13; extra == \"format\"",
+      "rfc3339-validator; extra == \"format\"",
+      "rfc3987; extra == \"format\"",
+      "uri-template; extra == \"format\"",
+      "webcolors>=1.11; extra == \"format\"",
+      "fqdn; extra == \"format-nongpl\"",
+      "idna; extra == \"format-nongpl\"",
+      "isoduration; extra == \"format-nongpl\"",
+      "jsonpointer>1.13; extra == \"format-nongpl\"",
+      "rfc3339-validator; extra == \"format-nongpl\"",
+      "rfc3986-validator>0.1.0; extra == \"format-nongpl\"",
+      "rfc3987-syntax>=1.1.0; extra == \"format-nongpl\"",
+      "uri-template; extra == \"format-nongpl\"",
+      "webcolors>=24.6.0; extra == \"format-nongpl\""
+    ],
+    "artifacts": [
+      {
+        "filename": "jsonschema-4.26.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+        "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+        "size": 90630,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "jsonschema-4.26.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b3/fc/e067678238fa451312d4c62bf6e6cf5ec56375422aee02f9cb5f909b3047/jsonschema-4.26.0.tar.gz",
+        "sha256": "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326",
+        "size": 366583,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "wheel_sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+    "license_files": [
+      {
+        "path": "notices/jsonschema-specifications-2025.9.1/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+      }
+    ],
+    "source": "https://pypi.org/project/jsonschema-specifications/2025.9.1/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "referencing>=0.31.0"
+    ],
+    "artifacts": [
+      {
+        "filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+        "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+        "size": 18437,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "jsonschema_specifications-2025.9.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz",
+        "sha256": "b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d",
+        "size": 32855,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "lxml",
+    "version": "6.1.3",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/0a/20/e022dbc6b4753a9bc9fc5fb28a27163430c1731b9913997f6544c1b2518c/lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+    "wheel_sha256": "909f4e927bb051f7740d6367285fc60cdcfdaf0258c2dba4ff5ba7eadadc250c",
+    "license_files": [
+      {
+        "path": "notices/lxml-6.1.3/lxml-6.1.3.dist-info/licenses/LICENSE.txt",
+        "sha256": "8fc2b568133516e46845d2147917adeee1648e70ae9ab5ed6c5417afef4ce855"
+      },
+      {
+        "path": "notices/lxml-6.1.3/lxml-6.1.3.dist-info/licenses/LICENSES.txt",
+        "sha256": "388fa99f3bde4447cd5a4cbb114037be026854db6cfe89e112691c1d8abdcf3c"
+      }
+    ],
+    "source": "https://pypi.org/project/lxml/6.1.3/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "cssselect>=0.7; extra == \"cssselect\"",
+      "html5lib; extra == \"html5\"",
+      "BeautifulSoup4; extra == \"htmlsoup\"",
+      "lxml_html_clean; extra == \"html-clean\""
+    ],
+    "artifacts": [
+      {
+        "filename": "lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/0a/20/e022dbc6b4753a9bc9fc5fb28a27163430c1731b9913997f6544c1b2518c/lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "909f4e927bb051f7740d6367285fc60cdcfdaf0258c2dba4ff5ba7eadadc250c",
+        "size": 5244675,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "lxml-6.1.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/23/ad/28ecd7cb894d172f3c9c80a075eeeb2017ac62e3632cee05a5f9493547eb/lxml-6.1.3.tar.gz",
+        "sha256": "45222d94ddd511536f3b2f7d9deae3b2339b4ce0f075f1ca25703b07cad9dd21",
+        "size": 4211198,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "mcp",
+    "version": "1.30.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/f5/f4/e58bc33317c92a0203664daaf00bf6f41166cc0149e5d6870a03f7cd004a/mcp-1.30.0-py3-none-any.whl",
+    "wheel_sha256": "666edb5009503e1047c9d60346a756f94b261f05cc2625f23d41c728ffc484d0",
+    "license_files": [
+      {
+        "path": "notices/mcp-1.30.0/mcp-1.30.0.dist-info/licenses/LICENSE",
+        "sha256": "5e13dbbc1d120fc2a03cecde7c91424ae2d7de11b63d58ded2f4431e261ee50d"
+      }
+    ],
+    "source": "https://pypi.org/project/mcp/1.30.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "anyio>=4.5",
+      "httpx-sse>=0.4",
+      "httpx<1.0.0,>=0.27.1",
+      "jsonschema>=4.20.0",
+      "pydantic-settings>=2.5.2",
+      "pydantic<3.0.0,>=2.11.0; python_version < \"3.14\"",
+      "pydantic<3.0.0,>=2.12.0; python_version >= \"3.14\"",
+      "pyjwt[crypto]>=2.10.1",
+      "python-multipart>=0.0.9",
+      "pywin32>=310; sys_platform == \"win32\" and python_version < \"3.14\"",
+      "pywin32>=311; sys_platform == \"win32\" and python_version >= \"3.14\"",
+      "sse-starlette>=1.6.1",
+      "starlette>=0.27; python_version < \"3.14\"",
+      "starlette>=0.48.0; python_version >= \"3.14\"",
+      "typing-extensions>=4.9.0",
+      "typing-inspection>=0.4.1",
+      "uvicorn>=0.31.1; sys_platform != \"emscripten\"",
+      "python-dotenv>=1.0.0; extra == \"cli\"",
+      "typer>=0.16.0; extra == \"cli\"",
+      "rich>=13.9.4; extra == \"rich\"",
+      "websockets>=15.0.1; extra == \"ws\""
+    ],
+    "artifacts": [
+      {
+        "filename": "mcp-1.30.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/f5/f4/e58bc33317c92a0203664daaf00bf6f41166cc0149e5d6870a03f7cd004a/mcp-1.30.0-py3-none-any.whl",
+        "sha256": "666edb5009503e1047c9d60346a756f94b261f05cc2625f23d41c728ffc484d0",
+        "size": 234581,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "mcp-1.30.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/ba/93/0142dc84a666daf8ad51a34268f34c12fd6fda4f3810c4be2504eecc8212/mcp-1.30.0.tar.gz",
+        "sha256": "445414625fce5c295faa505bb11bacece661ab6f4028d57c935db57820b7a3e4",
+        "size": 680511,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "niquests",
+    "version": "3.21.2",
+    "scope": "runtime",
+    "license": "Apache-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/65/51/eb07449eb9e7ecae4350b5a40bfcb002d6d26d58cf2cfd2f928ae7c2f559/niquests-3.21.2-py3-none-any.whl",
+    "wheel_sha256": "73e52614a712ee2f4d410bdd29789ca6a4ed031f8961410156e395d42b091208",
+    "license_files": [
+      {
+        "path": "notices/niquests-3.21.2/niquests-3.21.2.dist-info/licenses/LICENSE",
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+      }
+    ],
+    "source": "https://pypi.org/project/niquests/3.21.2/#files",
+    "upstream_license_expression": "Apache-2.0",
+    "upstream_requires": [
+      "charset-normalizer<4,>=2",
+      "urllib3-future<3,>=2.13.903",
+      "wassima<3,>=1.0.1; sys_platform != \"emscripten\"",
+      "urllib3-future[brotli]; extra == \"brotli\"",
+      "orjson<4,>=3; extra == \"full\"",
+      "urllib3-future[brotli,rtls,socks,ws,zstd]; extra == \"full\"",
+      "urllib3-future[qh3]; extra == \"http3\"",
+      "urllib3-future[qh3]; extra == \"ocsp\"",
+      "urllib3-future[rtls]; extra == \"rtls\"",
+      "urllib3-future[socks]; extra == \"socks\"",
+      "orjson<4,>=3; extra == \"speedups\"",
+      "urllib3-future[brotli,zstd]; extra == \"speedups\"",
+      "urllib3-future[utls]; extra == \"utls\"",
+      "urllib3-future[ws]; extra == \"ws\"",
+      "urllib3-future[ws-fast]; extra == \"ws-fast\"",
+      "urllib3-future[zstd]; extra == \"zstd\""
+    ],
+    "artifacts": [
+      {
+        "filename": "niquests-3.21.2-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/65/51/eb07449eb9e7ecae4350b5a40bfcb002d6d26d58cf2cfd2f928ae7c2f559/niquests-3.21.2-py3-none-any.whl",
+        "sha256": "73e52614a712ee2f4d410bdd29789ca6a4ed031f8961410156e395d42b091208",
+        "size": 229060,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "niquests-3.21.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/1c/2a/e368ec88a02c6bfc56c031ba6da9dd8099ad998fb818c28b687bee74c91a/niquests-3.21.2.tar.gz",
+        "sha256": "586d6b9475c9018a42f19f1e4688077b8158101cbf40673c63d2c1a096cc7665",
+        "size": 1094494,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "scope": "test",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+    "wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "license_files": [
+      {
+        "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE",
+        "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+      },
+      {
+        "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      },
+      {
+        "path": "notices/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+        "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+      }
+    ],
+    "source": "https://pypi.org/project/packaging/26.3/#files",
+    "upstream_license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "packaging-26.3-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+        "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+        "size": 129956,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "packaging-26.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+        "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+        "size": 313412,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pluggy",
+    "version": "1.6.0",
+    "scope": "test",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl",
+    "wheel_sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+    "license_files": [
+      {
+        "path": "notices/pluggy-1.6.0/pluggy-1.6.0.dist-info/licenses/LICENSE",
+        "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606"
+      }
+    ],
+    "source": "https://pypi.org/project/pluggy/1.6.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "pre-commit; extra == \"dev\"",
+      "tox; extra == \"dev\"",
+      "pytest; extra == \"testing\"",
+      "pytest-benchmark; extra == \"testing\"",
+      "coverage; extra == \"testing\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pluggy-1.6.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl",
+        "sha256": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+        "size": 20538,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pluggy-1.6.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f9/e2/3e91f31a7d2b083fe6ef3fa267035b518369d9511ffab804f839851d2779/pluggy-1.6.0.tar.gz",
+        "sha256": "7dcc130b76258d33b90f61b658791dede3486c3e6bfb003ee5c9bfb396dd22f3",
+        "size": 69412,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+    "wheel_sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+    "license_files": [
+      {
+        "path": "notices/pycparser-3.0/pycparser-3.0.dist-info/licenses/LICENSE",
+        "sha256": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+      }
+    ],
+    "source": "https://pypi.org/project/pycparser/3.0/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "pycparser-3.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+        "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+        "size": 48172,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pycparser-3.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz",
+        "sha256": "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29",
+        "size": 103492,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pydantic",
+    "version": "2.13.5",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl",
+    "wheel_sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73",
+    "license_files": [
+      {
+        "path": "notices/pydantic-2.13.5/pydantic-2.13.5.dist-info/licenses/LICENSE",
+        "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+      }
+    ],
+    "source": "https://pypi.org/project/pydantic/2.13.5/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "annotated-types>=0.6.0",
+      "pydantic-core==2.46.5",
+      "typing-extensions>=4.14.1",
+      "typing-inspection>=0.4.2",
+      "email-validator>=2.0.0; extra == \"email\"",
+      "tzdata; (python_version >= \"3.9\" and platform_system == \"Windows\") and extra == \"timezone\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pydantic-2.13.5-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl",
+        "sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73",
+        "size": 472589,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pydantic-2.13.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/53/ef/fc4f868f4e2cee79f863883abffceff107875f569b848507319842d2a681/pydantic-2.13.5.tar.gz",
+        "sha256": "51a9c5f7b2f8e636f04c6cada605d9b6a3bf1348fdf945a3d8869b19bba0ee08",
+        "size": 845750,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pydantic-settings",
+    "version": "2.15.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl",
+    "wheel_sha256": "0ba092c291c94baceb5eff768aa0d56400a457585bc0175925a5a5510303da42",
+    "license_files": [
+      {
+        "path": "notices/pydantic-settings-2.15.0/pydantic_settings-2.15.0.dist-info/licenses/LICENSE",
+        "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998"
+      }
+    ],
+    "source": "https://pypi.org/project/pydantic-settings/2.15.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "pydantic>=2.7.0",
+      "python-dotenv>=0.21.0",
+      "typing-inspection>=0.4.0",
+      "boto3>=1.35.0; extra == \"aws-secrets-manager\"",
+      "azure-identity>=1.16.0; extra == \"azure-key-vault\"",
+      "azure-keyvault-secrets>=4.8.0; extra == \"azure-key-vault\"",
+      "google-cloud-secret-manager>=2.23.1; extra == \"gcp-secret-manager\"",
+      "tomli>=2.0.1; extra == \"toml\"",
+      "pyyaml>=6.0.1; extra == \"yaml\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pydantic_settings-2.15.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/30/a4/2bffa9f8e804325a09867f0e9d30795c80ea9f8d62560bd1b6ad6220eb2f/pydantic_settings-2.15.0-py3-none-any.whl",
+        "sha256": "0ba092c291c94baceb5eff768aa0d56400a457585bc0175925a5a5510303da42",
+        "size": 69413,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pydantic_settings-2.15.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/68/ca/31c57507b13119d7d3cfa1576dad2911a4861e3be07b579395f4e9d393f9/pydantic_settings-2.15.0.tar.gz",
+        "sha256": "694b793e84f766ba76a90ebdefc01d0a9a045dab0382bee70393da93712ad117",
+        "size": 261253,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.46.5",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/c0/a4/eb9409ec0736e50aa70a412f16c204ed149516846912f7e6724d4c73ee53/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2",
+    "license_files": [
+      {
+        "path": "notices/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info/licenses/LICENSE",
+        "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+      },
+      {
+        "path": "notices/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info/sboms/pydantic-core.cyclonedx.json",
+        "sha256": "4f40c790f0cb384a793663331904117a914a50ef220b112c399d77f1463e3dd5"
+      }
+    ],
+    "source": "https://pypi.org/project/pydantic_core/2.46.5/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "typing-extensions>=4.14.1"
+    ],
+    "artifacts": [
+      {
+        "filename": "pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/c0/a4/eb9409ec0736e50aa70a412f16c204ed149516846912f7e6724d4c73ee53/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2",
+        "size": 2066284,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pydantic_core-2.46.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz",
+        "sha256": "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc",
+        "size": 472262,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "scope": "test",
+    "license": "BSD-2-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+    "wheel_sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+    "license_files": [
+      {
+        "path": "notices/pygments-2.21.0/pygments-2.21.0.dist-info/licenses/AUTHORS",
+        "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f"
+      },
+      {
+        "path": "notices/pygments-2.21.0/pygments-2.21.0.dist-info/licenses/LICENSE",
+        "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+      }
+    ],
+    "source": "https://pypi.org/project/Pygments/2.21.0/#files",
+    "upstream_license_expression": "BSD-2-Clause",
+    "upstream_requires": [
+      "colorama>=0.4.6; extra == \"windows-terminal\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pygments-2.21.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+        "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+        "size": 1250147,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pygments-2.21.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz",
+        "sha256": "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c",
+        "size": 5005329,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "PyJWT",
+    "version": "2.15.1",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/50/ca/44de4e75f8aadc457f0634be3b542815078ded46dca30efb960edeecad6e/pyjwt-2.15.1-py3-none-any.whl",
+    "wheel_sha256": "42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193",
+    "license_files": [
+      {
+        "path": "notices/pyjwt-2.15.1/pyjwt-2.15.1.dist-info/licenses/AUTHORS.rst",
+        "sha256": "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07"
+      },
+      {
+        "path": "notices/pyjwt-2.15.1/pyjwt-2.15.1.dist-info/licenses/LICENSE",
+        "sha256": "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5"
+      }
+    ],
+    "source": "https://pypi.org/project/PyJWT/2.15.1/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "typing_extensions>=4.0; python_version < \"3.11\"",
+      "cryptography>=3.4.0; extra == \"crypto\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pyjwt-2.15.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/50/ca/44de4e75f8aadc457f0634be3b542815078ded46dca30efb960edeecad6e/pyjwt-2.15.1-py3-none-any.whl",
+        "sha256": "42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193",
+        "size": 33860,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pyjwt-2.15.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/43/ea/5194e52748b0da83d71e082d75496eaec6e58f419f5e184786ded517e6a9/pyjwt-2.15.1.tar.gz",
+        "sha256": "4f259e80cdfb6b3fc18a7de51fd1ef9ec79652f25019bae68975ca2468a34df8",
+        "size": 121252,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pytest",
+    "version": "9.1.1",
+    "scope": "test",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl",
+    "wheel_sha256": "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c",
+    "license_files": [
+      {
+        "path": "notices/pytest-9.1.1/pytest-9.1.1.dist-info/licenses/LICENSE",
+        "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+      }
+    ],
+    "source": "https://pypi.org/project/pytest/9.1.1/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "colorama>=0.4; sys_platform == \"win32\"",
+      "exceptiongroup>=1; python_version < \"3.11\"",
+      "iniconfig>=1.0.1",
+      "packaging>=22",
+      "pluggy<2,>=1.5",
+      "pygments>=2.7.2",
+      "tomli>=1; python_version < \"3.11\"",
+      "argcomplete; extra == \"dev\"",
+      "attrs>=19.2; extra == \"dev\"",
+      "hypothesis>=3.56; extra == \"dev\"",
+      "mock; extra == \"dev\"",
+      "requests; extra == \"dev\"",
+      "setuptools; extra == \"dev\"",
+      "xmlschema; extra == \"dev\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pytest-9.1.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/24/25/1de2678b631f5a49215c6c96fff41ba892b0a34df68d6d80292b1b48aa7f/pytest-9.1.1-py3-none-any.whl",
+        "sha256": "37a86b45efb9a47a61a36449063e8e18d0cab3161329fc099eb21783169c4f0c",
+        "size": 386536,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pytest-9.1.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/e4/47/b9efed96c114afcfa3c9d3fe98a76a1d14c74a9e266d397cf6eb64be5e01/pytest-9.1.1.tar.gz",
+        "sha256": "1088fbde8f2b49d95a549a195707afa7a76a3ce9bcadc26b6d71f0ffda5fe313",
+        "size": 1636369,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "pytest-asyncio",
+    "version": "1.4.0",
+    "scope": "test",
+    "license": "Apache-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/03/e2/08a497ef684b88559c9cc5f4ad53a37e7b99e727094a86d6ea32536d5d3c/pytest_asyncio-1.4.0-py3-none-any.whl",
+    "wheel_sha256": "933ca923a23075a87fb7070c0ec272a6848489824d887c85c812670932835aa1",
+    "license_files": [
+      {
+        "path": "notices/pytest-asyncio-1.4.0/pytest_asyncio-1.4.0.dist-info/licenses/LICENSE",
+        "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae"
+      }
+    ],
+    "source": "https://pypi.org/project/pytest-asyncio/1.4.0/#files",
+    "upstream_license_expression": "Apache-2.0",
+    "upstream_requires": [
+      "backports-asyncio-runner<2,>=1.1; python_version < \"3.11\"",
+      "pytest<10,>=8.4",
+      "typing-extensions>=4.12; python_version < \"3.13\"",
+      "sphinx>=5.3; extra == \"docs\"",
+      "sphinx-rtd-theme>=1; extra == \"docs\"",
+      "sphinx-tabs>=3.5; extra == \"docs\"",
+      "coverage>=6.2; extra == \"testing\"",
+      "hypothesis>=5.7.1; extra == \"testing\""
+    ],
+    "artifacts": [
+      {
+        "filename": "pytest_asyncio-1.4.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/03/e2/08a497ef684b88559c9cc5f4ad53a37e7b99e727094a86d6ea32536d5d3c/pytest_asyncio-1.4.0-py3-none-any.whl",
+        "sha256": "933ca923a23075a87fb7070c0ec272a6848489824d887c85c812670932835aa1",
+        "size": 16930,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pytest_asyncio-1.4.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/43/7c/d36d04db312ecf4298932ef77e6e4a9e8ad017906e24e34f0b0c361a2473/pytest_asyncio-1.4.0.tar.gz",
+        "sha256": "c6c0d2259945122819f171a32ecea2c349ead889ee28176caaf492143424be42",
+        "size": 58514,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "scope": "runtime",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "wheel_sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+    "license_files": [
+      {
+        "path": "notices/python-dateutil-2.9.0.post0/python_dateutil-2.9.0.post0.dist-info/LICENSE",
+        "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+      }
+    ],
+    "source": "https://pypi.org/project/python-dateutil/2.9.0.post0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "six >=1.5"
+    ],
+    "artifacts": [
+      {
+        "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+        "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+        "size": 229892,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "python-dateutil-2.9.0.post0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz",
+        "sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+        "size": 342432,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.4",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl",
+    "wheel_sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+    "license_files": [
+      {
+        "path": "notices/python-dotenv-1.2.4/python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+        "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+      }
+    ],
+    "source": "https://pypi.org/project/python-dotenv/1.2.4/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "click>=5.0; extra == \"cli\""
+    ],
+    "artifacts": [
+      {
+        "filename": "python_dotenv-1.2.4-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl",
+        "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+        "size": 23266,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "python_dotenv-1.2.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/74/26/2fbeedb218a787a5eea551c7532cac4e009f83d689dd2faa0d0353473f86/python_dotenv-1.2.4.tar.gz",
+        "sha256": "f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0",
+        "size": 60824,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.32",
+    "scope": "runtime",
+    "license": "Apache-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/e1/04/e8135ebd1ad02c56ec633277529b2602ff99ff634be76cdba5744cf554fd/python_multipart-0.0.32-py3-none-any.whl",
+    "wheel_sha256": "ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23",
+    "license_files": [
+      {
+        "path": "notices/python-multipart-0.0.32/python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ],
+    "source": "https://pypi.org/project/python-multipart/0.0.32/#files",
+    "upstream_license_expression": "Apache-2.0",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "python_multipart-0.0.32-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/e1/04/e8135ebd1ad02c56ec633277529b2602ff99ff634be76cdba5744cf554fd/python_multipart-0.0.32-py3-none-any.whl",
+        "sha256": "ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23",
+        "size": 30042,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "python_multipart-0.0.32.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5b/42/55c32bb9b12693c092ad250a0e82edb5b31ddeda6eb772de5f308b3804ad/python_multipart-0.0.32.tar.gz",
+        "sha256": "be54b7f3fa167bb83e4fcd936b887b708f4e57fe75911c02aebf53efaf8d938e",
+        "size": 46881,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "wheel_sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+    "license_files": [
+      {
+        "path": "notices/pyyaml-6.0.3/pyyaml-6.0.3.dist-info/licenses/LICENSE",
+        "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+      }
+    ],
+    "source": "https://pypi.org/project/PyYAML/6.0.3/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+        "size": 807870,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "pyyaml-6.0.3.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz",
+        "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f",
+        "size": 130960,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "qh3",
+    "version": "2.0.4",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/77/e0/25e888ca43626083989396eaa97394c87694f7032489586b33b455ffd363/qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "af34fad8554560fa38304f61708176379d5efb192da2ece5fb25dec23c304b36",
+    "license_files": [
+      {
+        "path": "notices/qh3-2.0.4/qh3-2.0.4.dist-info/licenses/LICENSE",
+        "sha256": "85beac6e7c12428f69d72349754e12e8155a0ce609960fd99e3889af4ee5ba7e"
+      },
+      {
+        "path": "notices/qh3-2.0.4/qh3-2.0.4.dist-info/sboms/qh3.cyclonedx.json",
+        "sha256": "2262306c39d82e345220e5f2df99eebd9bfe74bee3c3eedf76e8614fd1a87566"
+      }
+    ],
+    "source": "https://pypi.org/project/qh3/2.0.4/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/77/e0/25e888ca43626083989396eaa97394c87694f7032489586b33b455ffd363/qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "af34fad8554560fa38304f61708176379d5efb192da2ece5fb25dec23c304b36",
+        "size": 2518986,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "qh3-2.0.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/76/d3/692f1410aad9cfda0001e1e74533cb2cbdf0c525a8e7c2e4c587a51929ae/qh3-2.0.4.tar.gz",
+        "sha256": "72b174c9dabfccdddf050dabc3c1b49972ed7a7564896d3db558e57376187f75",
+        "size": 380633,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "recurring-ical-events",
+    "version": "3.8.2",
+    "scope": "runtime",
+    "license": "LGPL-3.0-or-later",
+    "wheel_url": "https://files.pythonhosted.org/packages/81/f7/d3eb4f545baf5d6daaa5881694517626fb7ad04036d94168197a4f021384/recurring_ical_events-3.8.2-py3-none-any.whl",
+    "wheel_sha256": "9ad605e27b4fbeb70ee1c66205ade32550be15a57cedc579606522f1c67aef6d",
+    "license_files": [
+      {
+        "path": "notices/recurring-ical-events-3.8.2/recurring_ical_events-3.8.2.dist-info/licenses/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      }
+    ],
+    "source": "https://pypi.org/project/recurring-ical-events/3.8.2/#files",
+    "upstream_license_expression": "LGPL-3.0-or-later",
+    "upstream_requires": [
+      "backports-zoneinfo; python_version == \"3.7\" or python_version == \"3.8\"",
+      "icalendar<8.0.0,>=6.1.0",
+      "python-dateutil<3.0.0,>=2.8.1",
+      "typing-extensions; python_version <= \"3.9\"",
+      "tzdata",
+      "x-wr-timezone<3.0.0,>=1.0.0; python_version >= \"3.9\"",
+      "x-wr-timezone==0.*; python_version <= \"3.8\"",
+      "pygments; extra == \"test\"",
+      "pytest; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "pytz>=2023.3; extra == \"test\"",
+      "restructuredtext-lint; extra == \"test\""
+    ],
+    "artifacts": [
+      {
+        "filename": "recurring_ical_events-3.8.2-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/81/f7/d3eb4f545baf5d6daaa5881694517626fb7ad04036d94168197a4f021384/recurring_ical_events-3.8.2-py3-none-any.whl",
+        "sha256": "9ad605e27b4fbeb70ee1c66205ade32550be15a57cedc579606522f1c67aef6d",
+        "size": 241358,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "recurring_ical_events-3.8.2.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/b9/f5/898abd8fbb25766ec6cb17b244730ebf192f47963c71eeacd61aadd903a1/recurring_ical_events-3.8.2.tar.gz",
+        "sha256": "e731af31d0b7dec5cd47a1defacd8549e2f36fab1c1995e8b9f042822a0acf8e",
+        "size": 604992,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+    "wheel_sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+    "license_files": [
+      {
+        "path": "notices/referencing-0.37.0/referencing-0.37.0.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+      }
+    ],
+    "source": "https://pypi.org/project/referencing/0.37.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "attrs>=22.2.0",
+      "rpds-py>=0.7.0",
+      "typing-extensions>=4.4.0; python_version < \"3.13\""
+    ],
+    "artifacts": [
+      {
+        "filename": "referencing-0.37.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+        "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+        "size": 26766,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "referencing-0.37.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/22/f5/df4e9027acead3ecc63e50fe1e36aca1523e1719559c499951bb4b53188f/referencing-0.37.0.tar.gz",
+        "sha256": "44aefc3142c5b842538163acb373e24cce6632bd54bdb01b21ad5863489f50d8",
+        "size": 78036,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.9.1",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/1d/6d/b26eb1e75395925b3a142ed351cbed2ec8212f5c9d937aee3df32c701baa/rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "addeda51556dac7c1a2f14cda62db8b621cd12afba3091d03a96c72932387eab",
+    "license_files": [
+      {
+        "path": "notices/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+        "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909"
+      },
+      {
+        "path": "notices/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json",
+        "sha256": "0c8885a9d45f3c9280aeb1e06701077036748b22bd6e3a4201fe09e6b73f99b5"
+      }
+    ],
+    "source": "https://pypi.org/project/rpds-py/2026.9.1/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "url": "https://files.pythonhosted.org/packages/1d/6d/b26eb1e75395925b3a142ed351cbed2ec8212f5c9d937aee3df32c701baa/rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "addeda51556dac7c1a2f14cda62db8b621cd12afba3091d03a96c72932387eab",
+        "size": 371261,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "rpds_py-2026.9.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz",
+        "sha256": "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12",
+        "size": 63948,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "scope": "build",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+    "wheel_sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+    "license_files": [
+      {
+        "path": "notices/setuptools-84.0.0/setuptools-84.0.0.dist-info/licenses/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+        "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+        "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+        "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+        "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+        "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+        "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+        "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+        "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+        "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+      },
+      {
+        "path": "notices/setuptools-84.0.0/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+        "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+      }
+    ],
+    "source": "https://pypi.org/project/setuptools/84.0.0/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "pytest!=8.1.*,>=6; extra == \"test\"",
+      "virtualenv>=13.0.0; extra == \"test\"",
+      "wheel>=0.44.0; extra == \"test\"",
+      "pip>=19.1; extra == \"test\"",
+      "packaging>=24.2; extra == \"test\"",
+      "jaraco.envs>=2.2; extra == \"test\"",
+      "pytest-xdist>=3; extra == \"test\"",
+      "jaraco.path>=3.7.2; extra == \"test\"",
+      "build[virtualenv]>=1.0.3; extra == \"test\"",
+      "filelock>=3.4.0; extra == \"test\"",
+      "ini2toml[lite]>=0.14; extra == \"test\"",
+      "tomli-w>=1.0.0; extra == \"test\"",
+      "pytest-timeout; extra == \"test\"",
+      "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+      "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+      "pytest-home>=0.5; extra == \"test\"",
+      "pytest-subprocess; extra == \"test\"",
+      "pyproject-hooks!=1.1; extra == \"test\"",
+      "jaraco.test>=5.5; extra == \"test\"",
+      "sphinx>=3.5; extra == \"doc\"",
+      "jaraco.packaging>=9.3; extra == \"doc\"",
+      "rst.linker>=1.9; extra == \"doc\"",
+      "furo; extra == \"doc\"",
+      "sphinx-lint; extra == \"doc\"",
+      "jaraco.tidelift>=1.4; extra == \"doc\"",
+      "pygments-github-lexers==0.0.5; extra == \"doc\"",
+      "sphinx-favicon; extra == \"doc\"",
+      "sphinx-inline-tabs; extra == \"doc\"",
+      "sphinx-reredirects; extra == \"doc\"",
+      "sphinxcontrib-towncrier; extra == \"doc\"",
+      "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+      "pyproject-hooks!=1.1; extra == \"doc\"",
+      "towncrier<24.7; extra == \"doc\"",
+      "packaging>=24.2; extra == \"core\"",
+      "more_itertools>=8.8; extra == \"core\"",
+      "jaraco.text>=3.7; extra == \"core\"",
+      "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+      "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+      "wheel>=0.43.0; extra == \"core\"",
+      "jaraco.functools>=4; extra == \"core\"",
+      "more_itertools; extra == \"core\"",
+      "pytest-checkdocs>=2.14; extra == \"check\"",
+      "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+      "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+      "pytest-cov; extra == \"cover\"",
+      "pytest-enabler>=3.4; extra == \"enabler\"",
+      "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+      "mypy==1.18.*; extra == \"type\"",
+      "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+      "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+    ],
+    "artifacts": [
+      {
+        "filename": "setuptools-84.0.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+        "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+        "size": 818216,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "setuptools-84.0.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/6d/44/f5da03a8ef95d369145c5bb53050e7877c9f3d312e128605fd9504829143/setuptools-84.0.0.tar.gz",
+        "sha256": "f4695c21257f0d9b537ec2692c941d02ee143b7cc1276941349a546573b2ef73",
+        "size": 1168449,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+    "wheel_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "license_files": [
+      {
+        "path": "notices/six-1.17.0/six-1.17.0.dist-info/LICENSE",
+        "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+      }
+    ],
+    "source": "https://pypi.org/project/six/1.17.0/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "six-1.17.0-py2.py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+        "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+        "size": 11050,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "six-1.17.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz",
+        "sha256": "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81",
+        "size": 34031,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "sse-starlette",
+    "version": "3.5.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/be/e4/cdda14023c316d71493bc54fdffc3dd006631b88866145c9d3cc33e0f1df/sse_starlette-3.5.0-py3-none-any.whl",
+    "wheel_sha256": "3e6e1070df3f0f5d9cea81496de92dbb72f6721871d99748ece67441dd8b7997",
+    "license_files": [
+      {
+        "path": "notices/sse-starlette-3.5.0/sse_starlette-3.5.0.dist-info/licenses/AUTHORS",
+        "sha256": "c2ff63d2ecf128bbda8ab1b2016830a5da124202fbb97168685bb9946aed3f1a"
+      },
+      {
+        "path": "notices/sse-starlette-3.5.0/sse_starlette-3.5.0.dist-info/licenses/LICENSE",
+        "sha256": "80af6bfccbebd2c14d4aab96695cab9950e177190cc80f5ef819e99996883e8e"
+      }
+    ],
+    "source": "https://pypi.org/project/sse-starlette/3.5.0/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": [
+      "starlette>=0.49.1",
+      "anyio>=4.7.0",
+      "uvicorn>=0.34.0; extra == \"examples\"",
+      "fastapi>=0.115.12; extra == \"examples\"",
+      "pydantic>=2; extra == \"examples\"",
+      "sqlalchemy[asyncio]>=2.0.41; extra == \"examples-db\"",
+      "aiosqlite>=0.21.0; extra == \"examples-db\"",
+      "uvicorn>=0.34.0; extra == \"uvicorn\"",
+      "granian>=2.3.1; extra == \"granian\"",
+      "daphne>=4.2.0; extra == \"daphne\""
+    ],
+    "artifacts": [
+      {
+        "filename": "sse_starlette-3.5.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/be/e4/cdda14023c316d71493bc54fdffc3dd006631b88866145c9d3cc33e0f1df/sse_starlette-3.5.0-py3-none-any.whl",
+        "sha256": "3e6e1070df3f0f5d9cea81496de92dbb72f6721871d99748ece67441dd8b7997",
+        "size": 17407,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "sse_starlette-3.5.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/e4/be/0123026f719d1a7936f214a88b553bb5701e04ff2511147c1dab0c5035eb/sse_starlette-3.5.0.tar.gz",
+        "sha256": "75de713aa8a9441513cc283220826da079d982770965b951e9437720e8bafdb2",
+        "size": 36794,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "starlette",
+    "version": "1.7.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/4e/d6/1ec1b290f9e0fb067899b61e1d37a30c923068bad260b216dbe37a7d2967/starlette-1.7.0-py3-none-any.whl",
+    "wheel_sha256": "67f8e99895493dd2911a03f11314af6ceebeae4e704bb9f43dfc6a9db151c93e",
+    "license_files": [
+      {
+        "path": "notices/starlette-1.7.0/starlette-1.7.0.dist-info/licenses/LICENSE.md",
+        "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+      }
+    ],
+    "source": "https://pypi.org/project/starlette/1.7.0/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": [
+      "anyio<5,>=4.0.0",
+      "typing-extensions>=4.10.0; python_version < \"3.13\"",
+      "httpx2>=2.0.0; extra == \"full\"",
+      "httpx<0.29.0,>=0.27.0; extra == \"full\"",
+      "itsdangerous; extra == \"full\"",
+      "jinja2; extra == \"full\"",
+      "opentelemetry-api; extra == \"full\"",
+      "python-multipart>=0.0.18; extra == \"full\"",
+      "pyyaml; extra == \"full\""
+    ],
+    "artifacts": [
+      {
+        "filename": "starlette-1.7.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/4e/d6/1ec1b290f9e0fb067899b61e1d37a30c923068bad260b216dbe37a7d2967/starlette-1.7.0-py3-none-any.whl",
+        "sha256": "67f8e99895493dd2911a03f11314af6ceebeae4e704bb9f43dfc6a9db151c93e",
+        "size": 78980,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "starlette-1.7.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/7b/2b/3850dc6bf7ef71b088962eba31dafc6cffd2f96e577ebb0bb316df96da3e/starlette-1.7.0.tar.gz",
+        "sha256": "c79f74ea63cff761804fbbfb182f1e0b440c2d07b164d24700c5a1bab5d6ff5d",
+        "size": 2736246,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl",
+    "wheel_sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+    "license_files": [
+      {
+        "path": "notices/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+        "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+      }
+    ],
+    "source": "https://pypi.org/project/typing-inspection/0.4.4/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "typing-extensions>=4.15.0"
+    ],
+    "artifacts": [
+      {
+        "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl",
+        "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+        "size": 14750,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "typing_inspection-0.4.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz",
+        "sha256": "547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47",
+        "size": 76928,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "scope": "runtime",
+    "license": "PSF-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "wheel_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "license_files": [
+      {
+        "path": "notices/typing-extensions-4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+        "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+      }
+    ],
+    "source": "https://pypi.org/project/typing_extensions/4.16.0/#files",
+    "upstream_license_expression": "PSF-2.0",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+        "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+        "size": 45571,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "typing_extensions-4.16.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+        "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+        "size": 113555,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "tzdata",
+    "version": "2026.5",
+    "scope": "runtime",
+    "license": "Apache-2.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl",
+    "wheel_sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+    "license_files": [
+      {
+        "path": "notices/tzdata-2026.5/tzdata-2026.5.dist-info/licenses/LICENSE",
+        "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+      },
+      {
+        "path": "notices/tzdata-2026.5/tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "source": "https://pypi.org/project/tzdata/2026.5/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "tzdata-2026.5-py2.py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl",
+        "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+        "size": 347996,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "tzdata-2026.5.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/d9/68/f1b440335057bfce71b6e50a9d09445aa2ecbd08359a337976627b8409e7/tzdata-2026.5.tar.gz",
+        "sha256": "8cc73c0a0bfca7dbfa59235d60b2eff82231dee33f53d206db1acd9173cfc0a7",
+        "size": 200404,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "urllib3-future",
+    "version": "2.25.902",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/d7/bc/c2a384f5bc7b98a48fcb58ded963bd0862f753f8442572ce76037a753e7b/urllib3_future-2.25.902-py3-none-any.whl",
+    "wheel_sha256": "88e6f3c19f553931e78f84f011a34220f827c971e6cf06b3a075eaa788c2bf7d",
+    "license_files": [
+      {
+        "path": "notices/urllib3-future-2.25.902/urllib3_future-2.25.902.dist-info/licenses/LICENSE.txt",
+        "sha256": "3a387d8ea43ca7ac1edfff291862cb5913feb7949108a46c7154287552293dad"
+      }
+    ],
+    "source": "https://pypi.org/project/urllib3-future/2.25.902/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": [
+      "h11<1.0.0,>=0.11.0",
+      "jh2<6.0.0,>=5.0.3",
+      "qh3<3.0.0,>=1.5.4; (platform_python_implementation != \"CPython\" or python_full_version > \"3.7.10\") and (platform_system == \"Darwin\" or platform_system == \"Windows\" or platform_system == \"Linux\") and (platform_machine == \"x86_64\" or platform_machine == \"s390x\" or platform_machine == \"armv7l\" or platform_machine == \"ppc64le\" or platform_machine == \"ppc64\" or platform_machine == \"AMD64\" or platform_machine == \"aarch64\" or platform_machine == \"arm64\" or platform_machine == \"ARM64\" or platform_machine == \"x86\" or platform_machine == \"i686\" or platform_machine == \"riscv64\" or platform_machine == \"riscv64gc\") and (platform_python_implementation == \"CPython\" or (platform_python_implementation == \"PyPy\" and python_version < \"3.12\"))",
+      "brotli>=1.0.9; platform_python_implementation == \"CPython\" and extra == \"brotli\"",
+      "brotlicffi>=0.8.0; platform_python_implementation != \"CPython\" and extra == \"brotli\"",
+      "qh3<3.0.0,>=1.5.4; extra == \"qh3\"",
+      "rtls>=2026.9.21; platform_python_implementation == \"CPython\" and extra == \"rtls\"",
+      "python-socks<=2.8.1,>=2; extra == \"socks\"",
+      "brotli>=1.0.9; platform_python_implementation == \"CPython\" and extra == \"utls\"",
+      "utls>=2026.9.21; platform_python_implementation == \"CPython\" and extra == \"utls\"",
+      "zstandard>=0.18.0; (python_version < \"3.14\" and platform_python_implementation == \"CPython\") and extra == \"utls\"",
+      "wsproto<2,>=1.2; extra == \"ws\"",
+      "websockets<18,>=15.0.1; python_version >= \"3.9\" and extra == \"ws-fast\"",
+      "zstandard>=0.18.0; python_version < \"3.14\" and extra == \"zstd\""
+    ],
+    "artifacts": [
+      {
+        "filename": "urllib3_future-2.25.902-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/d7/bc/c2a384f5bc7b98a48fcb58ded963bd0862f753f8442572ce76037a753e7b/urllib3_future-2.25.902-py3-none-any.whl",
+        "sha256": "88e6f3c19f553931e78f84f011a34220f827c971e6cf06b3a075eaa788c2bf7d",
+        "size": 862229,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "urllib3_future-2.25.902.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/a7/71/b8238b130ed77fafb067d87d26045fe67963494150a5977d4658712a826a/urllib3_future-2.25.902.tar.gz",
+        "sha256": "5c443668b9f87bce38bad1fdec7d7950c47e9c5b7328b1fd029a429741f3be70",
+        "size": 1530236,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "scope": "runtime",
+    "license": "BSD-3-Clause",
+    "wheel_url": "https://files.pythonhosted.org/packages/38/0c/b54a4fdd7f90a3af8b02ebc9ce6712c2c208b7926a2f7bad95c33ebbe943/uvicorn-0.54.0-py3-none-any.whl",
+    "wheel_sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+    "license_files": [
+      {
+        "path": "notices/uvicorn-0.54.0/uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+        "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+      }
+    ],
+    "source": "https://pypi.org/project/uvicorn/0.54.0/#files",
+    "upstream_license_expression": "BSD-3-Clause",
+    "upstream_requires": [
+      "click>=7.0",
+      "h11>=0.8",
+      "typing-extensions>=4.0; python_version < \"3.11\"",
+      "httptools>=0.8.0; extra == \"standard\"",
+      "python-dotenv>=0.13; extra == \"standard\"",
+      "pyyaml>=5.1; extra == \"standard\"",
+      "uvloop>=0.15.1; (sys_platform != \"win32\" and (sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\")) and extra == \"standard\"",
+      "watchfiles>=0.20; extra == \"standard\"",
+      "websockets>=13.0; extra == \"standard\""
+    ],
+    "artifacts": [
+      {
+        "filename": "uvicorn-0.54.0-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/38/0c/b54a4fdd7f90a3af8b02ebc9ce6712c2c208b7926a2f7bad95c33ebbe943/uvicorn-0.54.0-py3-none-any.whl",
+        "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+        "size": 87427,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "uvicorn-0.54.0.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/da/34/30e9280707135d2cfc589dfff3cb796bd07a3aeb1a3e415ba09dd89d7bb4/uvicorn-0.54.0.tar.gz",
+        "sha256": "a2e33cbfaa0306f8e6b0c13e0cb89d7d7a2da3e62b90c66e18c33d9807b28620",
+        "size": 112283,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "wassima",
+    "version": "2.1.4",
+    "scope": "runtime",
+    "license": "MIT",
+    "wheel_url": "https://files.pythonhosted.org/packages/56/1d/032b95952208fa3e623d54efb650bf0a134e2a02e7400b36c63363c27b74/wassima-2.1.4-py3-none-any.whl",
+    "wheel_sha256": "26022272d4618aada0e26df2e79dbc0e034be8be9d6d5396512690ffc6a94e7b",
+    "license_files": [
+      {
+        "path": "notices/wassima-2.1.4/wassima-2.1.4.dist-info/licenses/LICENSE",
+        "sha256": "3465c55e04631360aaa79364091d41979d78eb5c6c8e6c15b6cd55b62a4711f5"
+      }
+    ],
+    "source": "https://pypi.org/project/wassima/2.1.4/#files",
+    "upstream_license_expression": "MIT",
+    "upstream_requires": null,
+    "artifacts": [
+      {
+        "filename": "wassima-2.1.4-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/56/1d/032b95952208fa3e623d54efb650bf0a134e2a02e7400b36c63363c27b74/wassima-2.1.4-py3-none-any.whl",
+        "sha256": "26022272d4618aada0e26df2e79dbc0e034be8be9d6d5396512690ffc6a94e7b",
+        "size": 134348,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "wassima-2.1.4.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/5f/92/fe256733440f7c36084ce924f373fbbf709277ddf92262b2295e8caf26d5/wassima-2.1.4.tar.gz",
+        "sha256": "21bb77253bb8032c05393172c4d2df395f423b7e704538f3b2407f50c032034d",
+        "size": 143472,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  },
+  {
+    "name": "x-wr-timezone",
+    "version": "2.0.1",
+    "scope": "runtime",
+    "license": "LGPL-3.0-or-later",
+    "wheel_url": "https://files.pythonhosted.org/packages/0f/b7/4bac35b4079b76c07d8faddf89467e9891b1610cfe8d03b0ebb5610e4423/x_wr_timezone-2.0.1-py3-none-any.whl",
+    "wheel_sha256": "e74a53b9f4f7def8138455c240e65e47c224778bce3c024fcd6da2cbe91ca038",
+    "license_files": [
+      {
+        "path": "notices/x-wr-timezone-2.0.1/x_wr_timezone-2.0.1.dist-info/LICENSE",
+        "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+      }
+    ],
+    "source": "https://pypi.org/project/x-wr-timezone/2.0.1/#files",
+    "upstream_license_expression": null,
+    "upstream_requires": [
+      "icalendar>=6.1.0",
+      "tzdata",
+      "click"
+    ],
+    "artifacts": [
+      {
+        "filename": "x_wr_timezone-2.0.1-py3-none-any.whl",
+        "url": "https://files.pythonhosted.org/packages/0f/b7/4bac35b4079b76c07d8faddf89467e9891b1610cfe8d03b0ebb5610e4423/x_wr_timezone-2.0.1-py3-none-any.whl",
+        "sha256": "e74a53b9f4f7def8138455c240e65e47c224778bce3c024fcd6da2cbe91ca038",
+        "size": 11102,
+        "kind": "bdist_wheel"
+      },
+      {
+        "filename": "x_wr_timezone-2.0.1.tar.gz",
+        "url": "https://files.pythonhosted.org/packages/79/2b/8ae5f59ab852c8fe32dd37c1aa058eb98aca118fec2d3af5c3cd56fffb7b/x_wr_timezone-2.0.1.tar.gz",
+        "sha256": "9166c40e6ffd4c0edebabc354e1a1e2cffc1bb473f88007694793757685cc8c3",
+        "size": 18212,
+        "kind": "sdist"
+      }
+    ],
+    "dependency_modified": false
+  }
+]

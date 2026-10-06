@@ -1,0 +1,22 @@
+# Template only. Do not activate without operator approval. Substitute your
+# operator-created tunnel ID in an ignored private copy, never in this release tree.
+config_version: 1
+control_plane:
+  base_url: https://api.openai.com
+  tunnel_id: REPLACE_WITH_YOUR_TUNNEL_ID
+  api_key: ${CONTROL_PLANE_API_KEY}
+health:
+  unix_socket: /srv/icloud-connect-mcp/.state/tunnel-health.sock
+  url_file: /srv/icloud-connect-mcp/.state/tunnel-health-url
+process:
+  pid_file: /srv/icloud-connect-mcp/.state/tunnel.pid
+admin_ui:
+  open_browser: false
+log:
+  level: info
+  format: json
+  file: /dev/stderr
+mcp:
+  commands:
+    - channel: main
+      command: /srv/icloud-connect-mcp/scripts/run-stdio.sh

@@ -1,0 +1,20 @@
+# Synthetic placeholders. For host use, select independent absolute paths.
+profile = "read-only"
+timezone = "UTC"
+account_email = "owner@example.invalid"
+username = "owner@example.invalid"
+password_file = "/run/secrets/icloud_app_password"
+state_dir = "/var/lib/icloud-mcp"
+permanent_expunge = false
+timeout_seconds = 30
+max_results = 100
+max_message_bytes = 25000000
+max_page_chars = 16000
+max_attachment_chunk = 48000
+max_date_days = 366
+max_calendar_resources = 2000
+max_event_bytes = 2000000
+# Omit allowlists for all resources. [] denies all resources in that category.
+# permissions = ["connector_ping", "list_mail_folders", "search_messages", "fetch_message"]
+# folders = ["INBOX"]
+# calendars = ["calendar-id-from-discovery"]

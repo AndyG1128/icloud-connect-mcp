@@ -1,0 +1,392 @@
+{
+  "selected_scope": "authored source Git repository only; no dependency binaries/sources bundle, container, published wheel or release tarball",
+  "evaluated_formats": [
+    "public_git_tree",
+    "project_wheel",
+    "project_source_tarball",
+    "private_dependency_source_bundle",
+    "container_image"
+  ],
+  "rows": [
+    {
+      "id": "RNG2Schtrn.xsl",
+      "package": "lxml",
+      "version": "6.1.3",
+      "exact_path": {
+        "upstream_sdist": "lxml-6.1.3/src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl",
+        "upstream_wheel": "lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl",
+        "sha256": "39b79bb01f16b7e777b8803f539354f394e99d0dcfc4f5f7f1374e02aa2c31a7"
+      },
+      "grant_evidence": "Pinned LICENSES.txt explicitly excepts these resources as unlicensed; actual files carry author/history comments but no established redistribution grant.",
+      "remaining_uncertainty": "Need originating rightsholder/upstream grant or qualified legal assessment before redistributing these resources. No top-level BSD inference.",
+      "needed_for_connector": "Not used by connector or inspected CalDAV execution paths. CalDAV uses lxml.etree; project/CalDAV sources do not import isoschematron or reference either stylesheet. A future feature using Schematron would require reassessment.",
+      "artifact_presence": {
+        "public_git_tree": "absent; license text/path mention only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices only",
+        "private_dependency_source_bundle": "present verbatim inside collected lxml-6.1.3.tar.gz",
+        "container_image": "no image built; normal pip-installed lxml wheel would include it"
+      },
+      "confirmed_obligation": "Copyright attribution is not a redistribution grant. Source Git/tar/wheel do not themselves redistribute this file; source-offer classification of an installed combination is a separate question."
+    },
+    {
+      "id": "XSD2Schtrn.xsl",
+      "package": "lxml",
+      "version": "6.1.3",
+      "exact_path": {
+        "upstream_sdist": "lxml-6.1.3/src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl",
+        "upstream_wheel": "lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl",
+        "sha256": "430791ac820cfb315c820f7c19703609a59f21b8151345ca11e6127efbfaec0d"
+      },
+      "grant_evidence": "Pinned LICENSES.txt explicitly excepts these resources as unlicensed; actual files carry author/history comments but no established redistribution grant.",
+      "remaining_uncertainty": "Need originating rightsholder/upstream grant or qualified legal assessment before redistributing these resources. No top-level BSD inference.",
+      "needed_for_connector": "Not used by connector or inspected CalDAV execution paths. CalDAV uses lxml.etree; project/CalDAV sources do not import isoschematron or reference either stylesheet. A future feature using Schematron would require reassessment.",
+      "artifact_presence": {
+        "public_git_tree": "absent; license text/path mention only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices only",
+        "private_dependency_source_bundle": "present verbatim inside collected lxml-6.1.3.tar.gz",
+        "container_image": "no image built; normal pip-installed lxml wheel would include it"
+      },
+      "confirmed_obligation": "Copyright attribution is not a redistribution grant. Source Git/tar/wheel do not themselves redistribute this file; source-offer classification of an installed combination is a separate question."
+    },
+    {
+      "id": "qh3-optional-fips",
+      "package": "aws-lc-fips-sys",
+      "version": "0.14.2",
+      "exact_path": {
+        "crate": "aws-lc-fips-sys-0.14.2.crate",
+        "license": "aws-lc-fips-sys-0.14.2/LICENSE",
+        "manifest": "aws-lc-fips-sys-0.14.2/Cargo.toml",
+        "possible_binary": "qh3/_hazmat.abi3.so (qh3 2.0.4)"
+      },
+      "grant_evidence": "Exact crate declaration: ISC AND (Apache-2.0 OR ISC) AND OpenSSL; LICENSE retains old OpenSSL/SSLeay conditions. qh3 Cargo.toml and maturin extension-module feature, rustls 0.23.45 default features and aws-lc-rs 1.18.1 defaults select non-FIPS aws-lc-sys; fips is optional. PyPI publishing workflow metadata requests no fips feature.",
+      "remaining_uncertainty": "Cargo.lock/SBOM entry is not linked-binary proof. Exact upstream wheel native feature/content verification remains incomplete; no signature verification or native rebuild claimed.",
+      "needed_for_connector": "qh3 2.0.4 is a platform-conditioned urllib3-future dependency installed for this tested platform; optional FIPS crate is not requested by the inspected default source feature graph and is only collected for review. HTTP/3 use was not necessary to fixture validation.",
+      "artifact_presence": {
+        "public_git_tree": "absent; SBOM/license declaration metadata only",
+        "project_wheel": "absent; metadata only",
+        "project_source_tarball": "absent; metadata only",
+        "private_dependency_source_bundle": "present as optional crate source; native wheel not bundled",
+        "container_image": "no image built; qh3 extension would need exact linked-component review"
+      },
+      "confirmed_obligation": "Do not treat old OpenSSL as Apache-2.0 or add an exception silently. No AGPL-compatible combined-FIPS runtime is claimed; standalone source grant does not convey this optional component."
+    },
+    {
+      "id": "libiconv 1.18",
+      "package": "lxml",
+      "version": "6.1.3",
+      "exact_path": {
+        "wheel_member": "lxml/etree.cpython-312-x86_64-linux-gnu.so"
+      },
+      "grant_evidence": "LGPL-2.1-or-later explicitly in exact lib/iconv.c/include/iconv.h.in; library source and COPYING.LIB retained. CLI/build portions retain their own grants.",
+      "remaining_uncertainty": "Applicable static-link relink/object/build materials and any upstream changes have not been established.",
+      "needed_for_connector": "Required library or transitive backend for installed dependency stack; absent from authored source build backend. Exact binaries are not shipped by this project source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; notices/references only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices/references only",
+        "private_dependency_source_bundle": "upstream package source plus collected native sources where established; no dependency wheelhouse",
+        "container_image": "no image built; would be present if dependencies were installed in image"
+      },
+      "confirmed_obligation": "If redistributed, retain component terms/notices; meet applicable source/relink requirements (especially LGPL static link). Network Corresponding Source of a covered installed combination needs separate library-source assessment; pip installation does not waive it."
+    },
+    {
+      "id": "libxml2 2.14.6, libxslt/libexslt 1.1.43, zlib 1.3.2",
+      "package": "lxml",
+      "version": "6.1.3",
+      "exact_path": {
+        "wheel_member": "lxml/etree.cpython-312-x86_64-linux-gnu.so"
+      },
+      "grant_evidence": "Exact runtime symbols and upstream archives/terms: libxml2/libxslt MIT, zlib Zlib. Component notices retained.",
+      "remaining_uncertainty": "Exact wheel compiler/options/patches not reconstructed.",
+      "needed_for_connector": "Required library or transitive backend for installed dependency stack; absent from authored source build backend. Exact binaries are not shipped by this project source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; notices/references only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices/references only",
+        "private_dependency_source_bundle": "upstream package source plus collected native sources where established; no dependency wheelhouse",
+        "container_image": "no image built; would be present if dependencies were installed in image"
+      },
+      "confirmed_obligation": "If redistributed, retain component terms/notices; meet applicable source/relink requirements (especially LGPL static link). Network Corresponding Source of a covered installed combination needs separate library-source assessment; pip installation does not waive it."
+    },
+    {
+      "id": "OpenSSL 4.0.3",
+      "package": "cryptography",
+      "version": "50.0.2",
+      "exact_path": {
+        "wheel_member": "cryptography/hazmat/bindings/_rust.abi3.so"
+      },
+      "grant_evidence": "SBOM and fresh wheel runtime symbol agree; exact OpenSSL 4.0.3 source/license retrieved, Apache-2.0.",
+      "remaining_uncertainty": "Complete native build inputs/patches not reconstructed; no requirement to reproduce an identical binary hash is inferred.",
+      "needed_for_connector": "Required library or transitive backend for installed dependency stack; absent from authored source build backend. Exact binaries are not shipped by this project source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; notices/references only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices/references only",
+        "private_dependency_source_bundle": "upstream package source plus collected native sources where established; no dependency wheelhouse",
+        "container_image": "no image built; would be present if dependencies were installed in image"
+      },
+      "confirmed_obligation": "If redistributed, retain component terms/notices; meet applicable source/relink requirements (especially LGPL static link). Network Corresponding Source of a covered installed combination needs separate library-source assessment; pip installation does not waive it."
+    },
+    {
+      "id": "libffi (bundled version not established)",
+      "package": "cffi",
+      "version": "2.1.1",
+      "exact_path": {
+        "wheel_member": "_cffi_backend.cpython-312-x86_64-linux-gnu.so"
+      },
+      "grant_evidence": "Pinned cffi wheel includes libffi-attribution/license evidence; project has not modified it.",
+      "remaining_uncertainty": "Exact bundled libffi version/source/build not established; cannot name an unverified version.",
+      "needed_for_connector": "Required library or transitive backend for installed dependency stack; absent from authored source build backend. Exact binaries are not shipped by this project source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; notices/references only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices/references only",
+        "private_dependency_source_bundle": "upstream package source plus collected native sources where established; no dependency wheelhouse",
+        "container_image": "no image built; would be present if dependencies were installed in image"
+      },
+      "confirmed_obligation": "If redistributed, retain component terms/notices; meet applicable source/relink requirements (especially LGPL static link). Network Corresponding Source of a covered installed combination needs separate library-source assessment; pip installation does not waive it."
+    },
+    {
+      "id": "libyaml 0.2.5",
+      "package": "PyYAML",
+      "version": "6.0.3",
+      "exact_path": {
+        "wheel_member": "yaml/_yaml.cpython-312-x86_64-linux-gnu.so"
+      },
+      "grant_evidence": "Fresh wheel reports 0.2.5; exact upstream source and MIT license retrieved.",
+      "remaining_uncertainty": "Exact wheel compiler/options/patches not reconstructed.",
+      "needed_for_connector": "Required library or transitive backend for installed dependency stack; absent from authored source build backend. Exact binaries are not shipped by this project source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; notices/references only",
+        "project_wheel": "absent; notices only",
+        "project_source_tarball": "absent; notices/references only",
+        "private_dependency_source_bundle": "upstream package source plus collected native sources where established; no dependency wheelhouse",
+        "container_image": "no image built; would be present if dependencies were installed in image"
+      },
+      "confirmed_obligation": "If redistributed, retain component terms/notices; meet applicable source/relink requirements (especially LGPL static link). Network Corresponding Source of a covered installed combination needs separate library-source assessment; pip installation does not waive it."
+    },
+    {
+      "id": "native-qh3",
+      "package": "qh3",
+      "version": "2.0.4",
+      "exact_path": {
+        "wheel_members": [
+          "qh3/_hazmat.abi3.so"
+        ],
+        "archive": [
+          {
+            "filename": "qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/77/e0/25e888ca43626083989396eaa97394c87694f7032489586b33b455ffd363/qh3-2.0.4-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "af34fad8554560fa38304f61708176379d5efb192da2ece5fb25dec23c304b36",
+            "size": 2518986,
+            "kind": "bdist_wheel"
+          },
+          {
+            "filename": "qh3-2.0.4.tar.gz",
+            "url": "https://files.pythonhosted.org/packages/76/d3/692f1410aad9cfda0001e1e74533cb2cbdf0c525a8e7c2e4c587a51929ae/qh3-2.0.4.tar.gz",
+            "sha256": "72b174c9dabfccdddf050dabc3c1b49972ed7a7564896d3db558e57376187f75",
+            "size": 380633,
+            "kind": "sdist"
+          }
+        ]
+      },
+      "grant_evidence": "Pinned upstream license/SBOM records and Cargo.lock source archives with exact component declarations/checksums were preserved. qh3 default aws-lc-sys 0.45.0 LICENSE explicitly covers OpenSSL-derived code with Apache-2.0.",
+      "remaining_uncertainty": "Lock/SBOM includes build/optional components; exact linked closure/build inputs not established. Top-level BSD/MIT alone does not license whole bundle.",
+      "needed_for_connector": "Installed transitive backend; no native artifact is needed to build authored wheel with setuptools (dependencies needed to run tests/server).",
+      "artifact_presence": {
+        "public_git_tree": "absent; SBOM metadata only",
+        "project_wheel": "absent; notices/metadata only",
+        "project_source_tarball": "absent; SBOM metadata only",
+        "private_dependency_source_bundle": "upstream sdists and relevant Cargo source archives; no dependency wheels",
+        "container_image": "no image built; exact native content would need inventory"
+      },
+      "confirmed_obligation": "Selected compatible alternatives must keep original terms; source/build obligations apply according to exact combined/artifact scope. Metadata containing a license name is not bundled code."
+    },
+    {
+      "id": "native-jh2",
+      "package": "jh2",
+      "version": "5.0.15",
+      "exact_path": {
+        "wheel_members": [
+          "jh2/_hazmat.abi3.so"
+        ],
+        "archive": [
+          {
+            "filename": "jh2-5.0.15-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/55/fa/d80e721e77714ccda44437da86b8424dd03ce07977c8f7f0dc3d6efd805c/jh2-5.0.15-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "ea4ac921ddd2d519646df9b94f96e2cd55529f92f6d7ff4c65508ca2f65399ef",
+            "size": 407364,
+            "kind": "bdist_wheel"
+          },
+          {
+            "filename": "jh2-5.0.15.tar.gz",
+            "url": "https://files.pythonhosted.org/packages/57/fa/a3ba1417800b142d6777c48657f6b01fc46bd1a4777aba979463e36d78c5/jh2-5.0.15.tar.gz",
+            "sha256": "53fb377caca50441fd1892f60745c44d3ba8c43844c3792e73c34bf9f841adaf",
+            "size": 7336589,
+            "kind": "sdist"
+          }
+        ]
+      },
+      "grant_evidence": "Pinned upstream license/SBOM records and Cargo.lock source archives with exact component declarations/checksums were preserved. qh3 default aws-lc-sys 0.45.0 LICENSE explicitly covers OpenSSL-derived code with Apache-2.0.",
+      "remaining_uncertainty": "Lock/SBOM includes build/optional components; exact linked closure/build inputs not established. Top-level BSD/MIT alone does not license whole bundle.",
+      "needed_for_connector": "Installed transitive backend; no native artifact is needed to build authored wheel with setuptools (dependencies needed to run tests/server).",
+      "artifact_presence": {
+        "public_git_tree": "absent; SBOM metadata only",
+        "project_wheel": "absent; notices/metadata only",
+        "project_source_tarball": "absent; SBOM metadata only",
+        "private_dependency_source_bundle": "upstream sdists and relevant Cargo source archives; no dependency wheels",
+        "container_image": "no image built; exact native content would need inventory"
+      },
+      "confirmed_obligation": "Selected compatible alternatives must keep original terms; source/build obligations apply according to exact combined/artifact scope. Metadata containing a license name is not bundled code."
+    },
+    {
+      "id": "native-pydantic_core",
+      "package": "pydantic_core",
+      "version": "2.46.5",
+      "exact_path": {
+        "wheel_members": [
+          "pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so"
+        ],
+        "archive": [
+          {
+            "filename": "pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/c0/a4/eb9409ec0736e50aa70a412f16c204ed149516846912f7e6724d4c73ee53/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2",
+            "size": 2066284,
+            "kind": "bdist_wheel"
+          },
+          {
+            "filename": "pydantic_core-2.46.5.tar.gz",
+            "url": "https://files.pythonhosted.org/packages/af/f9/8a06bea35ef8daf588f707784c973a7046e0034c8d8cfb08828eeffb8b75/pydantic_core-2.46.5.tar.gz",
+            "sha256": "10416c15b8839ecc4ef4d0885da76da6fd0f67333a0eb8aff6d93c4b8f2910fc",
+            "size": 472262,
+            "kind": "sdist"
+          }
+        ]
+      },
+      "grant_evidence": "Pinned upstream license/SBOM records and Cargo.lock source archives with exact component declarations/checksums were preserved. qh3 default aws-lc-sys 0.45.0 LICENSE explicitly covers OpenSSL-derived code with Apache-2.0.",
+      "remaining_uncertainty": "Lock/SBOM includes build/optional components; exact linked closure/build inputs not established. Top-level BSD/MIT alone does not license whole bundle.",
+      "needed_for_connector": "Installed transitive backend; no native artifact is needed to build authored wheel with setuptools (dependencies needed to run tests/server).",
+      "artifact_presence": {
+        "public_git_tree": "absent; SBOM metadata only",
+        "project_wheel": "absent; notices/metadata only",
+        "project_source_tarball": "absent; SBOM metadata only",
+        "private_dependency_source_bundle": "upstream sdists and relevant Cargo source archives; no dependency wheels",
+        "container_image": "no image built; exact native content would need inventory"
+      },
+      "confirmed_obligation": "Selected compatible alternatives must keep original terms; source/build obligations apply according to exact combined/artifact scope. Metadata containing a license name is not bundled code."
+    },
+    {
+      "id": "native-rpds-py",
+      "package": "rpds-py",
+      "version": "2026.9.1",
+      "exact_path": {
+        "wheel_members": [
+          "rpds/rpds.cpython-312-x86_64-linux-gnu.so"
+        ],
+        "archive": [
+          {
+            "filename": "rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/1d/6d/b26eb1e75395925b3a142ed351cbed2ec8212f5c9d937aee3df32c701baa/rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "addeda51556dac7c1a2f14cda62db8b621cd12afba3091d03a96c72932387eab",
+            "size": 371261,
+            "kind": "bdist_wheel"
+          },
+          {
+            "filename": "rpds_py-2026.9.1.tar.gz",
+            "url": "https://files.pythonhosted.org/packages/42/68/3bd46b8a5e01d3c2ebdf9c5e9497912e3fe0cde02bac21a7130ca866e403/rpds_py-2026.9.1.tar.gz",
+            "sha256": "4793ef7f78268b124b73fa933440f01d258bbae01de9fa53e9080c9ab0425a12",
+            "size": 63948,
+            "kind": "sdist"
+          }
+        ]
+      },
+      "grant_evidence": "Pinned upstream license/SBOM records and Cargo.lock source archives with exact component declarations/checksums were preserved. qh3 default aws-lc-sys 0.45.0 LICENSE explicitly covers OpenSSL-derived code with Apache-2.0.",
+      "remaining_uncertainty": "Lock/SBOM includes build/optional components; exact linked closure/build inputs not established. Top-level BSD/MIT alone does not license whole bundle.",
+      "needed_for_connector": "Installed transitive backend; no native artifact is needed to build authored wheel with setuptools (dependencies needed to run tests/server).",
+      "artifact_presence": {
+        "public_git_tree": "absent; SBOM metadata only",
+        "project_wheel": "absent; notices/metadata only",
+        "project_source_tarball": "absent; SBOM metadata only",
+        "private_dependency_source_bundle": "upstream sdists and relevant Cargo source archives; no dependency wheels",
+        "container_image": "no image built; exact native content would need inventory"
+      },
+      "confirmed_obligation": "Selected compatible alternatives must keep original terms; source/build obligations apply according to exact combined/artifact scope. Metadata containing a license name is not bundled code."
+    },
+    {
+      "id": "test-image-container",
+      "package": "python:3.12-slim",
+      "version": "CPython 3.12.15 / Debian 13.7",
+      "exact_path": {
+        "image_digest": "sha256:02108f5d322dd89f1c9e552442c25acb0543dfdbc455693a5599624f20d9155d",
+        "exact_base_package_inventory": "docs/test-base-image-inventory.json",
+        "python_executable": "/usr/local/bin/python3.12",
+        "debian_license_paths": "/usr/share/doc/<exact binary package in inventory>/copyright"
+      },
+      "grant_evidence": "87 exact base package versions inventoried. Python/OS/native licenses vary; no connector image has been built.",
+      "remaining_uncertainty": "Per-package exact license/source offers and full image-native closure not completed. Image paths beyond inventoried base are not established because no candidate image exists.",
+      "needed_for_connector": "Existing image was isolated test infrastructure only. Not needed for host source install, not part of this proposed source release.",
+      "artifact_presence": {
+        "public_git_tree": "absent; inventory metadata only",
+        "project_wheel": "absent",
+        "project_source_tarball": "absent; inventory metadata only",
+        "private_dependency_source_bundle": "absent; no OS/base sources bundled",
+        "container_image": "unbuilt and not proposed"
+      },
+      "confirmed_obligation": "A future OCI image conveys Python/OS/native binaries as well as the app; complete its own terms/notices/source/relink review. Existing test use is not image redistribution by this release."
+    },
+    {
+      "id": "additional-native-charset-normalizer",
+      "package": "charset-normalizer",
+      "version": "3.5.2",
+      "exact_path": {
+        "wheel_members": [
+          "charset_normalizer/cd.cpython-312-x86_64-linux-gnu.so",
+          "charset_normalizer/md.cpython-312-x86_64-linux-gnu.so"
+        ]
+      },
+      "grant_evidence": "Exact wheel license/notice bytes retained in notices/manifest.json; upstream artifacts unchanged by this project.",
+      "remaining_uncertainty": "Generated-extension or vendored-launcher build/provenance not reconstructed; do not infer bundle terms solely from top-level license.",
+      "needed_for_connector": "charset-normalizer is a runtime transitive dependency; setuptools is the build backend. Its Windows launchers are not needed for this Linux connector. These binary files are collected review material, not shipped project code.",
+      "artifact_presence": {
+        "public_git_tree": "absent; terms only",
+        "project_wheel": "absent; terms only",
+        "project_source_tarball": "absent; terms only",
+        "private_dependency_source_bundle": "upstream source archive only; no wheel binaries",
+        "container_image": "unbuilt; a future image needs its own inventory"
+      },
+      "confirmed_obligation": "Preserve exact included component notices/terms if subsequently redistributed; no binary/source-image compliance is claimed here."
+    },
+    {
+      "id": "additional-native-setuptools",
+      "package": "setuptools",
+      "version": "84.0.0",
+      "exact_path": {
+        "wheel_members": [
+          "setuptools/cli-32.exe",
+          "setuptools/cli-64.exe",
+          "setuptools/cli-arm64.exe",
+          "setuptools/cli.exe",
+          "setuptools/gui-32.exe",
+          "setuptools/gui-64.exe",
+          "setuptools/gui-arm64.exe",
+          "setuptools/gui.exe"
+        ]
+      },
+      "grant_evidence": "Exact wheel license/notice bytes retained in notices/manifest.json; upstream artifacts unchanged by this project.",
+      "remaining_uncertainty": "Generated-extension or vendored-launcher build/provenance not reconstructed; do not infer bundle terms solely from top-level license.",
+      "needed_for_connector": "charset-normalizer is a runtime transitive dependency; setuptools is the build backend. Its Windows launchers are not needed for this Linux connector. These binary files are collected review material, not shipped project code.",
+      "artifact_presence": {
+        "public_git_tree": "absent; terms only",
+        "project_wheel": "absent; terms only",
+        "project_source_tarball": "absent; terms only",
+        "private_dependency_source_bundle": "upstream source archive only; no wheel binaries",
+        "container_image": "unbuilt; a future image needs its own inventory"
+      },
+      "confirmed_obligation": "Preserve exact included component notices/terms if subsequently redistributed; no binary/source-image compliance is claimed here."
+    }
+  ],
+  "limits": "Artifact presence was inspected, not inferred from package top-level terms. Network-source obligations are separate from whether a file ships in this source release."
+}

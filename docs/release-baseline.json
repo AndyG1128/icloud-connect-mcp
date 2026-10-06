@@ -1,0 +1,33 @@
+{
+  "source_revision": "17d23cce0a7efde4b57521818089cedbd1918a16",
+  "deployed_distribution": "icloud-mcp",
+  "deployed_version": "0.1.0",
+  "deployed_wheel_sha256": "41f07781e97a6ca15eabfc6e43763e3ccfebc2af47dfec1996674bca6120f5ec",
+  "installed_modules_verified": 13,
+  "baseline_module_sha256": {
+    "identities.py": "531420173e9ca2221ff2267092320e47abe5c885fb4358fe49ea7a97c98f479b",
+    "server.py": "16df7cd824966a1208236b34a06d208388659043fdf84597515a83365622e878",
+    "mail_operations.py": "762ccc29acede0aa93371288394a29e592f64fddd64659eba08d6f0e7d36b686",
+    "permissions.py": "7d6b972400ec3b104317f28af7c25df2e58a30ca8359b6f37b3d558e2f14456e",
+    "recurrence.py": "cb50716f5ac974b924bc37a32da2f87063300c5d68188d8dd046acc392b03055",
+    "__init__.py": "3fbf50e9d3fb10bc05aa29a8ae83d068f80d4e88d6e9d2f22ed4223f10d028ea",
+    "config.py": "5cbcc53ab16d2e842a424f090b30117d27c905261cb8e30b0f1e70dfbfbc0fd3",
+    "operation_store.py": "96c5256f5639a7dc467381bb748a6c04c9d0f71b1c99320f3e70bb223bc0b267",
+    "smtp.py": "903eb1097027dd87ade8001755e12cf2907f8f161a3980dd57770846c13949dd",
+    "logging.py": "0cc43c7114d4706af44859c1bee63eef4c8f8216d7996bb89bd4b15ea60b1542",
+    "errors.py": "51912b9c512a58677f3cf0be668e572c64ff8a395fb7f361931e7aab374f40cd",
+    "calendars.py": "74ec8fa75921fce745e60e3ba49bfe0cd578c21c4bf0438e8810b4dbe79cce39",
+    "mail.py": "ebc04b9d33ec21f156c19389da512d73c97d3dfda3c14d4149f09eb5e2f40c3e"
+  },
+  "candidate_distribution": "icloud-connect-mcp",
+  "proposed_version": "0.2.0b1",
+  "source_date_epoch": 1791236448,
+  "private_history_imported": false,
+  "release_tag_created": false,
+  "candidate_behavior_differences": [
+    "MCP version metadata 0.2.0b1",
+    "relocatable stdio launcher with explicit configuration override"
+  ],
+  "mail_calendar_algorithm_changes": false,
+  "credentials_or_live_state_used": false
+}

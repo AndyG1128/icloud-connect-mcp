@@ -1,0 +1,16 @@
+include README.md CHANGELOG.md CONTRIBUTING.md SECURITY.md LICENSE NOTICE.md THIRD_PARTY_NOTICES.md
+include .gitignore
+include requirements.lock requirements-dev.lock requirements-build.lock
+recursive-include docs *.md *.json
+recursive-include examples *.toml *.yaml
+recursive-include scripts *.py *.sh
+recursive-include notices *
+recursive-include tests *.py *.ics
+prune .git
+prune .config
+prune .state
+prune .artifacts
+prune .venv
+prune build
+prune dist
+global-exclude __pycache__ *.py[cod]

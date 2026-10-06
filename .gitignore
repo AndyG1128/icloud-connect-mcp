@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.state/
+.config/
+.artifacts/
+.bin/
+*.egg-info/
+build/
+dist/
+.coverage
+
+# Operator-local packages; no published artifacts in this source-only scope.
+dist/
+build/

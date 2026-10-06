@@ -1,0 +1,6 @@
+{
+  "license": "LGPL-2.1",
+  "purpose": "License text for native iconv components identified by lxml wheel notices; native version/source provenance still requires publication review.",
+  "path": "notices/supplemental/LGPL-2.1.txt",
+  "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+}
