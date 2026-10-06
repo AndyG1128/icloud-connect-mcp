@@ -60,8 +60,8 @@ Counts are 9 read-only, 16 full/expunge-disabled or 17 with independent expunge 
 unless granular permissions reduce them. Test connector_ping through the target
 client and confirm read/write approvals before live work.
 
-Prior reports established connectivity in ordinary ChatGPT, ThorBot/the dot,
-mobile and Pages in the owner's setup. They do not establish universal availability,
+Prior reports established connectivity in ChatGPT chats, mobile chats and Pages
+in one development installation. They do not establish universal availability,
 all tool behaviors, or write approvals on every surface for another user/account.
 Codex/Responses tunnel paths described by OpenAI are not independently validated
 by this beta. A ChatGPT directory submission, public HTTPS hosting, OAuth server,

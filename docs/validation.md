@@ -38,7 +38,7 @@ These reports apply to the working development installation, not a fresh beta
 installation using another account. They are not repeatable tests run during
 release preparation, which makes no live account calls.
 
-ChatGPT chat, ThorBot, the dot, mobile and Pages connectivity were reported in
+ChatGPT chats, mobile chats and Pages connectivity were reported in
 prior stages. Do not infer that every write tool and every client approval flow
 was exercised on every surface. The live checks did not establish equivalent
 coverage for all-day writes, recurring-event mutations, invitations, cross-calendar
