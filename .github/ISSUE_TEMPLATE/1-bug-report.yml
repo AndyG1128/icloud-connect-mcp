@@ -1,0 +1,60 @@
+name: Bug report
+description: Report unexpected connector behavior with a sanitized reproduction.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not include credentials, account addresses, tunnel IDs,
+        message/event content, opaque resource references, configuration files or ledgers.
+        Use synthetic examples and short redacted errors. Do not repeat an ambiguous write
+        just to reproduce a problem. For suspected vulnerabilities, use
+        [private reporting](https://github.com/AndyG1128/icloud-connect-mcp/security/advisories/new).
+  - type: input
+    id: version
+    attributes:
+      label: Connector version and source commit
+      placeholder: "0.2.0b1, public commit SHA"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and client
+      description: OS, Python version, MCP client/version and connection method. Omit usernames, hostnames and private paths.
+    validations:
+      required: true
+  - type: dropdown
+    id: profile
+    attributes:
+      label: Access profile
+      options:
+        - Read-only
+        - Full access, permanent expunge disabled
+        - Full access, permanent expunge explicitly enabled
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and affected tool
+      description: Give a minimal synthetic reproduction and relevant permission restrictions. Do not request live mutations for diagnosis.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and actual result
+      description: Include a short redacted error code if relevant; never paste full operational logs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing issues and removed secrets and private account data from this report.
+          required: true
+        - label: This is not a sensitive vulnerability report; I will use private reporting for those.
+          required: true
