@@ -14,7 +14,7 @@ server independently enforces the operator profile and resource restrictions.
 | fetch_message | yes | yes | Signed message ref; complete headers/text/HTML/attachment metadata pages |
 | fetch_attachment | yes | yes | Signed attachment ref; bounded decoded bytes as base64 |
 | list_calendars | yes | yes | Enumerates authenticated principal collections with VEVENT/VTODO distinction |
-| get_events | yes | yes | Explicit calendar and bounded half-open date window |
+| get_events | yes | yes | Explicit calendar and bounded half-open date window; over-budget recurring resources listed in `skipped_resources` |
 | fetch_event | yes | yes | Complete VCALENDAR resource pages and digest |
 | send_message | denied | yes | SMTP plus separately checkpointed Sent persistence |
 | reply_message | denied | yes | Referenced message threading; Reply-To is untrusted; may reply to self |

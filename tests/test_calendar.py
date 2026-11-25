@@ -196,7 +196,9 @@ async def test_high_frequency_expansion_is_explicitly_bounded(make_connector):
     c.fake_dav.resources[href][0]=parsed.to_ical()
     ref=await calendar_ref(c)
     r=await c.execute('get_events',dict(calendar_ref=ref,start='2026-03-07',end='2026-03-12'))
-    assert r['error']['code']=='EXPANSION_LIMIT'
+    # The over-budget resource is skipped and named; the read itself does not fail.
+    assert r['ok'] and r['result']['events']==[]
+    assert r['result']['skipped_resources']==[{'resource_href':href,'code':'EXPANSION_LIMIT','reason':'resource budget'}]
 
 
 def test_nonexistent_recurrence_slot_is_ignored_without_consuming_count(make_connector):
@@ -209,3 +211,53 @@ def test_nonexistent_recurrence_slot_is_ignored_without_consuming_count(make_con
     # Query after the gap still gets the final valid instance.
     a,b=window('2026-03-10','2026-03-11',c.config)
     assert len(expand(cal,a,b,c.config))==1
+
+
+def _series(uid, dtstart, rule):
+    return (f'BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nUID:{uid}\nDTSTART:{dtstart}\nDTEND:{dtstart}\n'
+            f'RRULE:{rule}\nSUMMARY:{uid}\nEND:VEVENT\nEND:VCALENDAR\n').encode()
+
+
+def test_expansion_work_is_counted_from_the_series_start_not_the_window():
+    """The library walks a series from DTSTART: FREQ=MINUTELY begun in 2020 is ~3.6M steps for a
+    one-day window (6.5 s measured) while the old estimate, sized from the window, said 1,442."""
+    from icloud_mcp.recurrence import RESOURCE_WORK_BUDGET, expansion_cost
+    a, b = datetime(2026,11,25,tzinfo=timezone.utc), datetime(2026,11,26,tzinfo=timezone.utc)
+    old = Calendar.from_ical(_series('m', '20200101T000000Z', 'FREQ=MINUTELY'))
+    new = Calendar.from_ical(_series('m', '20261125T000000Z', 'FREQ=MINUTELY'))
+    assert expansion_cost(old, a, b) > 3_000_000 > RESOURCE_WORK_BUDGET >= expansion_cost(new, a, b)
+    # UNTIL ends the walk; a limiting BY part adds no candidates; an expanding one multiplies.
+    ended = Calendar.from_ical(_series('u', '20200101T000000Z', 'FREQ=MINUTELY;UNTIL=20200102T000000Z'))
+    assert expansion_cost(ended, a, b) < 1_500
+    daily = Calendar.from_ical(_series('d', '20160101T090000Z', 'FREQ=DAILY'))
+    filtered = Calendar.from_ical(_series('d', '20160101T090000Z', 'FREQ=DAILY;BYDAY=MO,WE'))
+    twice = Calendar.from_ical(_series('d', '20160101T090000Z', 'FREQ=DAILY;BYHOUR=9,17'))
+    assert expansion_cost(filtered, a, b) == expansion_cost(daily, a, b)
+    assert expansion_cost(twice, a, b) == 2 * expansion_cost(daily, a, b) <= RESOURCE_WORK_BUDGET
+
+
+async def test_one_costly_resource_is_skipped_and_reported_the_rest_still_read(make_connector):
+    import time
+    c=make_connector();ref=await calendar_ref(c)
+    base=c.fake_dav.collections[0].url
+    c.fake_dav.resources[base+'minutely.ics']=[_series('minutely','20200101T000000Z','FREQ=MINUTELY'),'"etag-m"']
+    c.fake_dav.resources[base+'filtered.ics']=[_series('filtered','20260301T000000Z','FREQ=SECONDLY;BYHOUR=3;BYMINUTE=0'),'"etag-f"']
+    started=time.monotonic()
+    r=await c.execute('get_events',dict(calendar_ref=ref,start='2026-03-07',end='2026-03-12'))
+    assert time.monotonic()-started < 5
+    assert r['ok'] and len(r['result']['events'])==4                 # the ordinary series, as before
+    assert {x['resource_href'] for x in r['result']['skipped_resources']}=={base+'minutely.ics',base+'filtered.ics'}
+    assert all(x['code']=='EXPANSION_LIMIT' for x in r['result']['skipped_resources'])
+
+
+async def test_the_call_budget_bounds_many_resources_that_each_fit(make_connector, monkeypatch):
+    from icloud_mcp import calendars
+    c=make_connector();ref=await calendar_ref(c)
+    base=c.fake_dav.collections[0].url
+    for i in range(3):
+        c.fake_dav.resources[base+f'h{i}.ics']=[_series(f'h{i}','20260301T000000Z','FREQ=HOURLY'),f'"etag-h{i}"']
+    monkeypatch.setattr(calendars, 'CALL_WORK_BUDGET', 400)          # each 170 steps; not all three fit
+    r=await c.execute('get_events',dict(calendar_ref=ref,start='2026-03-07',end='2026-03-08'))
+    assert r['ok']
+    reasons=[x['reason'] for x in r['result']['skipped_resources']]
+    assert reasons and set(reasons)=={'call budget'}

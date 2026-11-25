@@ -34,6 +34,10 @@ helper choices are distinct from dataclass defaults. Full-message and event
 pagination offsets are capped by schema; do not assume an unbounded bulk export.
 Recurrence expansion has additional fixed safety budgets (20,000 prefix events
 and a capped result horizon); narrow windows rather than disabling protections.
+Expansion work is estimated from each series' DTSTART to the window end, because
+the library walks a series from its start: 100,000 steps per calendar resource and
+1,000,000 per `get_events` call. A resource over budget is left out of the result
+and named in `skipped_resources` (code `EXPANSION_LIMIT`); the call still succeeds.
 
 IMAPS is fixed to `imap.mail.me.com`/TLS 993; SMTP to `smtp.mail.me.com`/verified
 STARTTLS 587; CalDAV begins at `https://caldav.icloud.com/`. Hosts are not model

@@ -12,7 +12,8 @@ import caldav
 from caldav.elements import dav, cdav
 from caldav.elements.base import BaseElement
 from .errors import ConnectorError, require
-from .recurrence import UTC, window, expand, bounds, identity, occurrence, apply_changes, normalized
+from .recurrence import (UTC, window, expand, bounds, identity, occurrence, apply_changes, normalized,
+                         expansion_cost, RESOURCE_WORK_BUDGET, CALL_WORK_BUDGET)
 
 
 def allowed_url(value):
@@ -198,11 +199,26 @@ class Calendars:
             resources = calendar.search(start=a, end=b, event=True, expand=False,
                                         server_expand=False, split_expanded=False, post_filter=False)
             require(len(resources) <= self.config.max_calendar_resources, "LIMIT_EXCEEDED", "Too many resources; narrow the date window.")
-            rows = []
+            rows, skipped, spent = [], [], 0
             for resource in resources:
                 href = self.resource(root, str(resource.url))
                 parsed, etag, _ = self.get_resource(client, root, href)
-                for event in expand(parsed, a, b, self.config):
+                # One resource whose recurrence is too costly to expand is skipped and reported, never
+                # the whole read failed; the per-call budget bounds many that each fit.
+                cost = expansion_cost(parsed, a, b)
+                if cost > RESOURCE_WORK_BUDGET or spent + cost > CALL_WORK_BUDGET:
+                    skipped.append({"resource_href": href, "code": "EXPANSION_LIMIT",
+                                    "reason": "resource budget" if cost > RESOURCE_WORK_BUDGET else "call budget"})
+                    continue
+                spent += cost
+                try:
+                    expanded = expand(parsed, a, b, self.config)
+                except ConnectorError as exc:
+                    if exc.code != "EXPANSION_LIMIT":
+                        raise
+                    skipped.append({"resource_href": href, "code": "EXPANSION_LIMIT", "reason": exc.message})
+                    continue
+                for event in expanded:
                     s, e, all_day = bounds(event, ZoneInfo(self.config.timezone))
                     summary = str(event.get("SUMMARY", ""))
                     rid = event.decoded("RECURRENCE-ID") if "RECURRENCE-ID" in event else event.decoded("DTSTART")
@@ -213,7 +229,8 @@ class Calendars:
                 require(len(rows) <= 20_000, "EXPANSION_LIMIT", "Too many occurrences; narrow the date window.")
         rows.sort(key=lambda x:(x["start"],x["uid"],x["recurrence_id"],x["resource_href"]))
         return {"events": rows[offset:offset+limit], "total": len(rows), "window_start": a.isoformat(), "window_end": b.isoformat(),
-                "window_end_exclusive": True, "next_offset": offset+limit if offset+limit < len(rows) else None}
+                "window_end_exclusive": True, "next_offset": offset+limit if offset+limit < len(rows) else None,
+                "skipped_resources": skipped}
 
     def fetch_event(self, event_ref, offset=0, limit=16000):
         obj = self.ids.decode(event_ref, "event")

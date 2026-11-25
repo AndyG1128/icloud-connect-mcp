@@ -77,23 +77,57 @@ def bounds(event, zone):
     return instant(start, zone), instant(end, zone), not isinstance(start, datetime)
 
 
+# Expansion work budget. The library walks a series from its DTSTART (not from the query window) up to
+# the window end, so work is estimated over that span: a MINUTELY series begun years ago is millions of
+# steps even for a one-day window. One resource over its budget is skipped and reported by get_events;
+# the budget across one call bounds many resources that each fit.
+RESOURCE_WORK_BUDGET = 100_000
+CALL_WORK_BUDGET = 1_000_000
+_PERIODS = {"SECONDLY": 1, "MINUTELY": 60, "HOURLY": 3600, "DAILY": 86400,
+            "WEEKLY": 604800, "MONTHLY": 2419200, "YEARLY": 31536000}
+_RANK = {f: i for i, f in enumerate(_PERIODS)}
+# A BY* part EXPANDS a period into several candidates when the frequency is coarser than the part's
+# unit (RFC 5545 3.3.10 table); at a finer frequency it only filters, which adds no candidates.
+# (part, finest expanding frequency, candidates per value at YEARLY / at the finest expanding frequency)
+_EXPANDERS = (("BYSECOND", "MINUTELY", 1, 1), ("BYMINUTE", "HOURLY", 1, 1), ("BYHOUR", "DAILY", 1, 1),
+              ("BYDAY", "WEEKLY", 53, 1), ("BYMONTHDAY", "MONTHLY", 12, 1), ("BYYEARDAY", "YEARLY", 1, 1),
+              ("BYWEEKNO", "YEARLY", 7, 7), ("BYMONTH", "YEARLY", 1, 1))
+_LIMITERS = ("BYSECOND", "BYMINUTE", "BYHOUR", "BYDAY", "BYMONTHDAY", "BYYEARDAY", "BYWEEKNO", "BYMONTH", "BYSETPOS")
+
+
+def _utc_approx(value):
+    """An instant for estimating only: dates at UTC midnight, floating times read as UTC."""
+    if isinstance(value, datetime):
+        return value.astimezone(UTC) if value.tzinfo else value.replace(tzinfo=UTC)
+    return datetime.combine(value, time.min, UTC)
+
+
 def expansion_cost(calendar, a, b):
+    """Estimated library steps to expand `calendar` for a query ending at `b`: every period from each
+    series' DTSTART (or its UNTIL, if earlier than `b`) times the candidates its BY* parts add."""
     estimate = 0
-    periods = {"SECONDLY": 1, "MINUTELY": 60, "HOURLY": 3600, "DAILY": 86400,
-               "WEEKLY": 604800, "MONTHLY": 2419200, "YEARLY": 31536000}
     for e in calendar.walk("VEVENT"):
         rule = e.get("RRULE")
         if not rule:
             estimate += 1; continue
         freq = str(rule.get("FREQ", [""])[0])
-        require(freq in periods, "INVALID_RECURRENCE", "Unsupported or malformed recurrence frequency.")
+        require(freq in _PERIODS, "INVALID_RECURRENCE", "Unsupported or malformed recurrence frequency.")
+        start = _utc_approx(e.decoded("DTSTART")) if "DTSTART" in e else a
+        stop = b
+        if rule.get("UNTIL"):
+            stop = min(stop, _utc_approx(rule["UNTIL"][0]))
+        try:
+            interval = max(1, int(rule.get("INTERVAL", [1])[0]))
+        except (TypeError, ValueError):
+            interval = 1
+        span = max(0.0, (stop - start).total_seconds())
         multiplier = 1
-        for key in ("BYHOUR", "BYMINUTE", "BYSECOND", "BYMONTHDAY", "BYDAY", "BYMONTH"):
-            if key in rule:
-                multiplier *= len(rule[key])
-        cost = max(1, int((b-a).total_seconds()/periods[freq])+2)*multiplier
-        if rule.get("COUNT"):
-            cost = min(cost, int(rule["COUNT"][0]))
+        for key, finest, yearly, otherwise in _EXPANDERS:
+            if key in rule and _RANK[freq] >= _RANK[finest]:
+                multiplier *= len(rule[key]) * (yearly if freq == "YEARLY" else otherwise)
+        cost = (int(span / (_PERIODS[freq] * interval)) + 2) * multiplier
+        if rule.get("COUNT") and not any(key in rule for key in _LIMITERS):
+            cost = min(cost, int(rule["COUNT"][0]))   # unfiltered: COUNT steps reach COUNT occurrences
         estimate += cost
     return estimate
 
@@ -125,7 +159,7 @@ def correct_gap_counts(calendar, end, config):
         for _ in range(8):
             component = bare.walk("VEVENT")[0]
             component["RRULE"]["COUNT"] = [adjusted]
-            require(expansion_cost(bare, start, end) <= 20_000, "EXPANSION_LIMIT", "Recurrence prefix exceeds its budget.")
+            require(expansion_cost(bare, start, end) <= RESOURCE_WORK_BUDGET, "EXPANSION_LIMIT", "Recurrence prefix exceeds its budget.")
             slots = recurring_ical_events.of(bare).between(start, end)
             require(len(slots) <= 20_000, "EXPANSION_LIMIT", "Too many recurrence prefix instances.")
             needed = original + sum(not exists(e.decoded("DTSTART")) for e in slots)
@@ -151,8 +185,8 @@ def copy_rule_calendar(calendar, master):
 
 
 def expand(calendar, a, b, config):
-    require(expansion_cost(calendar, a, b) <= 20_000, "EXPANSION_LIMIT",
-            "Recurrence expansion would exceed its budget; use a narrower date window.")
+    require(expansion_cost(calendar, a, b) <= RESOURCE_WORK_BUDGET, "EXPANSION_LIMIT",
+            "Recurrence expansion would exceed its budget (counted from the series start).")
     zone = ZoneInfo(config.timezone)
     cal = normalized(calendar, zone)
     correct_gap_counts(cal, b, config)
