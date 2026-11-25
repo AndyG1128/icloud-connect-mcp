@@ -362,7 +362,7 @@
     {
       "id": "additional-native-setuptools",
       "package": "setuptools",
-      "version": "84.0.0",
+      "version": "84.1.0",
       "exact_path": {
         "wheel_members": [
           "setuptools/cli-32.exe",

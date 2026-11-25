@@ -70,7 +70,7 @@ network source offer requires the separate checks in docs/source-access.md.
 | recurring-ical-events | 3.8.2 | runtime | LGPL-3.0-or-later | unchanged |
 | referencing | 0.37.0 | runtime | MIT | unchanged |
 | rpds-py | 2026.9.1 | runtime | MIT | unchanged |
-| setuptools | 84.0.0 | build | MIT | unchanged |
+| setuptools | 84.1.0 | build | MIT | unchanged |
 | six | 1.17.0 | runtime | MIT | unchanged |
 | sse-starlette | 3.5.0 | runtime | BSD-3-Clause | unchanged |
 | starlette | 1.7.0 | runtime | BSD-3-Clause | unchanged |
